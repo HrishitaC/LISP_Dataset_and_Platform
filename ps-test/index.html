@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Perceptual Speed Test</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Startscreen -->
+  <div id="startScreen">
+    <h1>Perceptual Speed Test (ε and ¥)</h1>
+    <!-- Explanation of the task -->
+    <div class="infoBox">
+    <p>
+    In this test, you will see strings with various symbols. Your task is to quickly decide whether <strong>both target symbols (ε and ¥)</strong> are present in the string.
+    </p>
+    <p>
+    When both symbols are present, please press the <strong>J</strong> key. If only one or neither of the symbols is present, please press <strong>N</strong>. You will receive one point for each correct input and a minus point for each incorrect one.
+    </p>
+    <p>
+    Should you accidentally press either key twice in a row, you can correct your last input using the "Back" button. However, only the most recently submitted answer can be changed.
+    </p>
+
+    <p>
+    The search test begins with a 30-second test phase, during which you can familiarize yourself with the procedure. You can then start the actual test by clicking the <em>"Start Final Test"</em> button.
+    </p>
+
+    <p>
+    The main test follows the same procedure as the test phase. However, it lasts 120 seconds.
+    </p>
+
+    <p>If you have read the instructions, please enter your desired user ID and then start the test phase.</p>
+    </div>
+
+    <input type="text" id="userIdInput"  placeholder="Enter User ID">
+    <br>
+    <button onclick="startTestPhase()">Start Test Phase</button>
+  </div>
+
+  <!-- Testscreen -->
+  <div id="testScreen" style="display: none;">
+    <h1>Perceptual Speed Test (ε and ¥)</h1>
+    <div class="infoBox">
+    <p>REMINDER: You are looking for strings that contain <strong>both target symbols (ε and ¥)</strong>. If both symbols are present, please press the <strong>J</strong> key. If only one or neither of the symbols is present, please press <strong>N</strong>.</p>
+    </div>
+    <div id="snippet"></div>
+    <p id="timer">1 s</p>
+    <button id="backButton" onclick="goBack()">Back</button>
+  </div>
+
+  <!-- Testphase-Endscreen -->
+  <div id="testPhaseEndScreen" style="display: none;">
+    <h1>Test phase completed</h1>
+    <p id="testPhaseResultText"></p>
+
+    <button onclick="startMainTest()">Start Final Test</button>
+  </div>
+  <!-- Endscreen with Scoreboard -->
+  <div id="endScreen" style="display: none;">
+    <h1>Final Test completed</h1>
+    <p id="resultText"></p>
+
+    <div class="infoBox_red">
+      <p>Don't forget to return to the tab with the Google Form after completing the test and fill it out completely before submitting.</p>
+    </div>
+    
+    <div id="scoreboard">
+      <h2>Top 10 Scores</h2>
+      <table id="scoreTable" style="margin: 0 auto; border-collapse: collapse;">
+        <thead>
+          <tr><th>User-ID</th><th>Score</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
