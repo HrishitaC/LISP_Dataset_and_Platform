@@ -7,7 +7,7 @@ title: LISP - A Rich Interaction Dataset and Loggable Interactive Search Platfor
 
 Explore the user study dataset, the loggable interactive search platform, and user profile data.  
 
-**GitHub Repository:** [Project Website](https://github.com/AndyKruff/Project-website)
+**GitHub Repository:** [Project Website](https://github.com/irgroup/LISP_Dataset_and_Platform)
 
 ---
 
