@@ -50,10 +50,10 @@
     <div style="display: flex; gap: 0.5em;">
     <!-- Sidebar -->
     <aside style="width: 250px; position: sticky; top: 20px; height: fit-content; padding: 1em; background: #f8f9fa; border: 1px solid #ddd; border-radius: 8px;">
-        <h5>Task</h5>
-        <p>
-        Please find arguments for both sides of a debate regarding the question: <!--Change sidebar task description here--></p><p> <b>{{ reminder }} <!-- reminder corresponds to the Topic and can be changed in search_app.py --></b>  
-        </p> 
+        <!-- <h5>Task</h5> -->
+        <!-- <p>
+        Please find arguments for both sides of a debate regarding the question: <!- -Change sidebar task description here- -></p><p> <b>{{ reminder }} <!- - reminder corresponds to the Topic and can be changed in search_app.py - -></b>  
+        </p>  -->
         
 
         <!-- <div id="argument-counters" style="margin-top: 1em;">
@@ -100,7 +100,8 @@
         </div> -->
 
         <div class="modal-buttons">
-        <button id = "yes-end-btn" class="btn btn-primary" onclick="closeEndTaskModal();openFeedbackModal()">Yes, end task</button>
+        <!-- <button id = "yes-end-btn" class="btn btn-primary" onclick="closeEndTaskModal();openFeedbackModal()">Yes, end task</button> -->
+        <button id = "yes-end-btn" class="btn btn-primary">Yes, end task</button>
 
         <button id = "no-end-btn" onclick="closeEndTaskModal()" class="btn btn-outline-secondary">No, resume search</button>
         </div>
@@ -137,7 +138,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <script>
-        const finalbtn = document.getElementById("feedback-btn");
+        // const finalbtn = document.getElementById("feedback-btn");
+        const finalbtn = document.getElementById("yes-end-btn");
         if (finalbtn) {
         finalbtn.addEventListener('click', async (e) => {
                 e.preventDefault()
