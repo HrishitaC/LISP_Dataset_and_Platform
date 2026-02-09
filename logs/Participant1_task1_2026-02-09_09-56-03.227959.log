@@ -1,0 +1,33 @@
+{"type": "idSubmitted", "timestamp": "2026-02-09T09:55:42.928Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "uid": "Participant1"}
+{"type": "TaskStarted", "timestamp": "2026-02-09T09:55:44.526Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "task": "1", "uid": "Participant1", "topic": "Is human activity primarily responsible for global climate change?"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-09T09:55:45.361Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955"}
+{"type": "querySubmitted", "timestamp": "2026-02-09T09:55:47.616Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "query": "climate change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:48.006Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "1", "url": "https://www.un.org/en/climatechange/what-is-climate-change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:48.006Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "2", "url": "https://science.nasa.gov/climate-change/"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:48.006Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "3", "url": "https://en.wikipedia.org/wiki/Climate_change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:48.006Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "4", "url": "https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:48.006Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "5", "url": "https://www.epa.gov/climate-change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:48.006Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "6", "url": "https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change/"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:48.007Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "7", "url": "https://www.who.int/health-topics/climate-change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:48.007Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "8", "url": "https://www.ipcc.ch/"}
+{"type": "clickedResult", "timestamp": "2026-02-09T09:55:52.273Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "url": "https://www.un.org/en/climatechange/what-is-climate-change", "rank": "1"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:54.331Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "1", "url": "https://www.un.org/en/climatechange/what-is-climate-change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:54.331Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "2", "url": "https://science.nasa.gov/climate-change/"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:54.331Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "3", "url": "https://en.wikipedia.org/wiki/Climate_change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:54.331Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "4", "url": "https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:54.331Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "5", "url": "https://www.epa.gov/climate-change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:54.332Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "6", "url": "https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change/"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:54.332Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "7", "url": "https://www.who.int/health-topics/climate-change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:54.332Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "8", "url": "https://www.ipcc.ch/"}
+{"type": "clickedResult", "timestamp": "2026-02-09T09:55:55.091Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "url": "https://www.un.org/en/climatechange/what-is-climate-change", "rank": "1"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:56.523Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "1", "url": "https://www.un.org/en/climatechange/what-is-climate-change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:56.523Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "2", "url": "https://science.nasa.gov/climate-change/"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:56.523Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "3", "url": "https://en.wikipedia.org/wiki/Climate_change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:56.523Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "4", "url": "https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:56.524Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "5", "url": "https://www.epa.gov/climate-change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:56.524Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "6", "url": "https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change/"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:56.524Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "7", "url": "https://www.who.int/health-topics/climate-change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:55:56.524Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "docid": "", "rank": "8", "url": "https://www.ipcc.ch/"}
+{"type": "ClickedEndTask", "timestamp": "2026-02-09T09:55:57.177Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-02-09T09:55:57.976Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955"}
+{"type": "TaskEnded", "timestamp": "2026-02-09T09:56:03.215Z", "sessionID": "a3a6c0ab-6981-41b3-8dad-c59664b09955", "reason": "done searching"}

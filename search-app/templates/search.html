@@ -7,18 +7,18 @@
   <hr>
   <!-- Search Result Arguments-->
   {% for s in search_results %}     <!-- After adjusting the system.py regarding the data fields you might need to adapt the displayed data fields here (e.g. s.title, s.argument, ...)-->
-        <article class="media content-section" id="result-{{ loop.index }}" result_rank="{{ loop.index }}" base_ir="{{ s.docid }}">
+        <article class="media content-section" id="result-{{ loop.index }}" result_rank="{{ loop.index }}" base_ir="{{ s.docid }}" url="{{ s.link }}">
         <div class="media-body">
           <!-- Title -->
           <h4>
-            <span>{{ loop.index + 10*(page-1) }}. <a class="result-link" href="{{ s.link }}" id="abstract-link-{{ loop.index }}">{{ s.title }}</a></span>
+            <span>{{ loop.index + 10*(page-1) }}. <a class="result-link" href="{{ s.link }}" id="abstract-link-{{ loop.index }}" result_rank="{{ loop.index }}">{{ s.title }}</a></span>
           </h4>
 
               
 
               <!-- Argument preview -->
               <p class="article-content" id="abstract-preview-{{ loop.index }}">
-                {{ s.snippet }} <a class="result-link" href="{{ s.link }}" id="abstract-link-{{ loop.index }}">Read More</a>                                             
+                {{ s.snippet }} <a class="result-link" href="{{ s.link }}" id="abstract-link-{{ loop.index }}" result_rank="{{ loop.index }}">Read More</a>                                             
               </p>
 
               <!-- Full abstract (initially hidden) -->

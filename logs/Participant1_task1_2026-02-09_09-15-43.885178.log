@@ -1,0 +1,25 @@
+{"type": "idSubmitted", "timestamp": "2026-02-09T09:14:23.267Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "uid": "Participant1"}
+{"type": "TaskStarted", "timestamp": "2026-02-09T09:14:24.412Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "task": "1", "uid": "Participant1", "topic": "Is human activity primarily responsible for global climate change?"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-09T09:14:26.145Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-09T09:14:31.620Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd"}
+{"type": "querySubmitted", "timestamp": "2026-02-09T09:14:34.914Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "global climate change"}
+{"type": "clickedResult", "timestamp": "2026-02-09T09:14:44.258Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "", "url": "https://science.nasa.gov/climate-change/", "rank": null}
+{"type": "clickedResult", "timestamp": "2026-02-09T09:14:49.581Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "", "url": "https://www.un.org/en/climatechange/what-is-climate-change", "rank": "2"}
+{"type": "clickedResult", "timestamp": "2026-02-09T09:14:54.556Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "", "url": "https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts", "rank": null}
+{"type": "queryBoxFocused", "timestamp": "2026-02-09T09:15:00.003Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd"}
+{"type": "querySubmitted", "timestamp": "2026-02-09T09:15:06.251Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "climate change reasons"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:15:06.251Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "climate change reasons", "docid": "", "rank": "1", "url": "https://science.nasa.gov/climate-change/"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:15:06.252Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "climate change reasons", "docid": "", "rank": "2", "url": "https://www.un.org/en/climatechange/what-is-climate-change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:15:06.252Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "climate change reasons", "docid": "", "rank": "3", "url": "https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:15:06.252Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "climate change reasons", "docid": "", "rank": "4", "url": "https://wmo.int/topics/climate-change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:15:06.253Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "climate change reasons", "docid": "", "rank": "5", "url": "https://www.un.org/en/climatechange/science/causes-effects-climate-change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:15:06.253Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "climate change reasons", "docid": "", "rank": "6", "url": "https://en.wikipedia.org/wiki/Climate_change"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:15:06.253Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "climate change reasons", "docid": "", "rank": "7", "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:15:06.253Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "climate change reasons", "docid": "", "rank": "8", "url": "https://www.acs.org/policy/publicpolicies/sustainability/globalclimatechange.html"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-09T09:15:06.253Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "climate change reasons", "docid": "", "rank": "9", "url": "https://climateknowledgeportal.worldbank.org/climate-change-overview"}
+{"type": "clickedResult", "timestamp": "2026-02-09T09:15:14.102Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "", "url": "https://science.nasa.gov/climate-change/causes/", "rank": null}
+{"type": "clickedResult", "timestamp": "2026-02-09T09:15:19.332Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "", "url": "https://www.nrdc.org/stories/what-are-causes-climate-change", "rank": "5"}
+{"type": "clickedResult", "timestamp": "2026-02-09T09:15:27.303Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "query": "", "url": "https://www.bgs.ac.uk/discovering-geology/climate-change/what-causes-the-earths-climate-to-change/", "rank": null}
+{"type": "ClickedEndTask", "timestamp": "2026-02-09T09:15:36.661Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-02-09T09:15:37.609Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd"}
+{"type": "TaskEnded", "timestamp": "2026-02-09T09:15:43.885Z", "sessionID": "69ce37d6-c9dd-4ba9-9461-787cf1f734bd", "reason": "search complete"}

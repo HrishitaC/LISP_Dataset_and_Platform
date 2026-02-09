@@ -1,0 +1,4 @@
+{"type": "TaskStarted", "timestamp": "2026-02-09T10:14:58.075Z", "sessionID": "c4dbf1b0-cdbc-477e-a806-bf409f94a8ca", "task": "2", "uid": "Participant1", "topic": "Is cell phone radiation safe?"}
+{"type": "ClickedEndTask", "timestamp": "2026-02-09T10:14:58.907Z", "sessionID": "c4dbf1b0-cdbc-477e-a806-bf409f94a8ca"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-02-09T10:14:59.683Z", "sessionID": "c4dbf1b0-cdbc-477e-a806-bf409f94a8ca"}
+{"type": "TaskEnded", "timestamp": "2026-02-09T10:15:06.121Z", "sessionID": "c4dbf1b0-cdbc-477e-a806-bf409f94a8ca", "reason": "done searching"}

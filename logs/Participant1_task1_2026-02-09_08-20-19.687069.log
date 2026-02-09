@@ -1,0 +1,7 @@
+{"type": "idSubmitted", "timestamp": "2026-02-09T08:18:58.361Z", "sessionID": "a7cfad2c-263e-462f-b4e8-f0b04aeaedea", "uid": "Participant1"}
+{"type": "TaskStarted", "timestamp": "2026-02-09T08:19:10.268Z", "sessionID": "a7cfad2c-263e-462f-b4e8-f0b04aeaedea", "task": "1", "uid": "Participant1", "topic": "Is human activity primarily responsible for global climate change?"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-09T08:19:13.245Z", "sessionID": "a7cfad2c-263e-462f-b4e8-f0b04aeaedea"}
+{"type": "querySubmitted", "timestamp": "2026-02-09T08:19:27.644Z", "sessionID": "a7cfad2c-263e-462f-b4e8-f0b04aeaedea", "query": "global climate change"}
+{"type": "ClickedEndTask", "timestamp": "2026-02-09T08:20:11.364Z", "sessionID": "a7cfad2c-263e-462f-b4e8-f0b04aeaedea"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-02-09T08:20:12.619Z", "sessionID": "a7cfad2c-263e-462f-b4e8-f0b04aeaedea"}
+{"type": "TaskEnded", "timestamp": "2026-02-09T08:20:19.660Z", "sessionID": "a7cfad2c-263e-462f-b4e8-f0b04aeaedea", "reason": "done searching\n"}

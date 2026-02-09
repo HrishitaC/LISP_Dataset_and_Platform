@@ -55,6 +55,7 @@
                     console.log('Logs successfully sent to server.');
                     localStorage.removeItem('sessionLogs');
                     localStorage.removeItem('sessionID');
+                    localStorage.removeItem('submittedQuery');
                     this.logs = [];
                 } else {
                     console.error('Failed to send logs.');
@@ -66,27 +67,6 @@
     logger.init();
     window.studyLogger = logger;
 })();
-
-// let lastKnownScrollPosition = 0;
-// let ticking = false;
-
-// function doSomething(scrollPos){
-    
-// }
-
-// document.addEventListener("scroll", (e) => {
-//     lastKnownScrollPosition = window.scrollY;
-//     if (!ticking){
-//         setTimeout(()=>{
-//             doSomething(lastKnownScrollPosition);
-//             ticking = false;
-
-//         }, 20);
-
-//         ticking=true;
-//     }
-// });
-
 
 const idform = document.getElementById("enter-id-form");
 if (idform) {
@@ -123,38 +103,41 @@ if (searchbar) {
     searchbar.addEventListener("submit", (e) => {
         const query = document.getElementById("search-box").value;
         studyLogger.logEvent("querySubmitted", { query });
-
-        const searchresults = document.querySelectorAll("article");
-        searchresults.forEach(result => {
-            const docid = result.getAttribute("base_ir");
-            const rank = result.getAttribute("result_rank");  
-            studyLogger.logEvent("SearchResultGenerated", {
-            query: query,
-            docid: docid,
-            rank: rank,
-            });
-        });          
+        localStorage.setItem("submittedQuery", query);
     }); 
 }
 
-// const searchbar = document.getElementById("search-bar")
-// if (searchbar) {
-//     searchbar.addEventListener("submit", (e) => {
-//         const query = document.getElementById("search-box").value;
-//         studyLogger.logEvent("querySubmitted", { query });
+const searchResults = document.querySelectorAll("article.content-section");
+if (searchResults)  {
+    searchResults.forEach(result => {
+        const query =  localStorage.getItem('submittedQuery');
+        const docid = result.getAttribute("base_ir");
+        const rank = result.getAttribute("result_rank");
+        const url = result.getAttribute("url");  
+        studyLogger.logEvent("searchResultGenerated", {
+        query: query,
+        docid: docid,
+        rank: rank,
+        url: url
+        });
+    });
+}        
 
-//         const searchresults = document.querySelectorAll("article");
-//         searchresults.forEach(result => {
-//             const docid = result.getAttribute("base_ir");
-//             const rank = result.getAttribute("result_rank");  
-//             studyLogger.logEvent("SearchResultGenerated", {
-//             query: query,
-//             docid: docid,
-//             rank: rank,
-//             });
-//         });          
-//     }); 
-// }
+const resultLinks = document.querySelectorAll("a.result-link");
+if (resultLinks) {
+    resultLinks.forEach(link => {
+        link.addEventListener("click", (e) => {
+            const url = link.getAttribute("href");
+            const query = localStorage.getItem('submittedQuery');
+            const rank = link.getAttribute("result_rank");
+            studyLogger.logEvent("clickedResult", {
+                query: query,
+                url: url,
+                rank: rank
+            });
+        });
+    });
+}
 
 const pageLinks = document.querySelectorAll("a.page-link");
 if (pageLinks) {
