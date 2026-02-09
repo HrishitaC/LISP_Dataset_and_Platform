@@ -1,0 +1,18 @@
+{"type": "idSubmitted", "timestamp": "2026-02-06T15:06:20.099Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a", "uid": "Participant1"}
+{"type": "TaskStarted", "timestamp": "2026-02-06T15:06:21.224Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a", "task": "1", "uid": "Participant1", "topic": "Is human activity primarily responsible for global climate change?"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-06T15:06:23.074Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a"}
+{"type": "querySubmitted", "timestamp": "2026-02-06T15:06:28.553Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a", "query": "global climate change"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-06T15:07:00.131Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a"}
+{"type": "querySubmitted", "timestamp": "2026-02-06T15:07:04.778Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a", "query": "climate change"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:04.778Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a", "query": "climate change", "docid": "", "rank": "1"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:04.778Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a", "query": "climate change", "docid": "", "rank": "2"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:04.778Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a", "query": "climate change", "docid": "", "rank": "3"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:04.778Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a", "query": "climate change", "docid": "", "rank": "4"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:04.778Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a", "query": "climate change", "docid": "", "rank": "5"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:04.778Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a", "query": "climate change", "docid": "", "rank": "6"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:04.778Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a", "query": "climate change", "docid": "", "rank": "7"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:04.779Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a", "query": "climate change", "docid": "", "rank": "8"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:04.779Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a", "query": "climate change", "docid": "", "rank": "9"}
+{"type": "ClickedEndTask", "timestamp": "2026-02-06T15:07:11.691Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-02-06T15:07:12.651Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a"}
+{"type": "TaskEnded", "timestamp": "2026-02-06T15:07:13.459Z", "sessionID": "b372f2ac-4c75-4992-b61a-06b40cf43e5a", "reason": ""}

@@ -1,0 +1,16 @@
+{"type": "TaskStarted", "timestamp": "2026-02-06T14:38:41.864Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248", "task": "2", "uid": "Participant1", "topic": "Is cell phone radiation safe?"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-06T14:38:44.460Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248"}
+{"type": "querySubmitted", "timestamp": "2026-02-06T14:38:47.944Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248", "query": "phone radiation\\"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-06T14:38:50.047Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248"}
+{"type": "querySubmitted", "timestamp": "2026-02-06T14:38:58.265Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248", "query": "phone radiation"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T14:38:58.265Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248", "query": "phone radiation", "docid": "", "rank": "1"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T14:38:58.265Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248", "query": "phone radiation", "docid": "", "rank": "2"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T14:38:58.266Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248", "query": "phone radiation", "docid": "", "rank": "3"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T14:38:58.266Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248", "query": "phone radiation", "docid": "", "rank": "4"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T14:38:58.266Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248", "query": "phone radiation", "docid": "", "rank": "5"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T14:38:58.266Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248", "query": "phone radiation", "docid": "", "rank": "6"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T14:38:58.266Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248", "query": "phone radiation", "docid": "", "rank": "7"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T14:38:58.266Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248", "query": "phone radiation", "docid": "", "rank": "8"}
+{"type": "ClickedEndTask", "timestamp": "2026-02-06T14:39:18.361Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-02-06T14:39:19.270Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248"}
+{"type": "TaskEnded", "timestamp": "2026-02-06T14:39:24.026Z", "sessionID": "0bed23fa-fe86-4100-8316-a8b941944248", "reason": "end search"}

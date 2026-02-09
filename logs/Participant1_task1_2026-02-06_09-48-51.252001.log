@@ -1,0 +1,40 @@
+{"type": "idSubmitted", "timestamp": "2026-02-06T09:30:55.999Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "uid": "Participant1"}
+{"type": "TaskStarted", "timestamp": "2026-02-06T09:31:03.167Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "task": "1", "uid": "Participant1", "topic": "Is human activity primarily responsible for global climate change?"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-06T09:31:06.212Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be"}
+{"type": "querySubmitted", "timestamp": "2026-02-06T09:31:10.142Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "query": "climate change"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-06T09:36:02.482Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-06T09:36:11.073Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be"}
+{"type": "querySubmitted", "timestamp": "2026-02-06T09:36:12.520Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "query": "climate change"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-06T09:37:47.239Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be"}
+{"type": "querySubmitted", "timestamp": "2026-02-06T09:37:51.279Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "query": "climate change"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-06T09:48:12.211Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be"}
+{"type": "querySubmitted", "timestamp": "2026-02-06T09:48:18.547Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "query": "global climate change"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T09:48:18.547Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "docid": "S83ff45f2-A4287f1f1", "rank": "1"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T09:48:18.547Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "docid": "Sb3622b08-A51d84a00", "rank": "2"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T09:48:18.547Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "docid": "S797b35ea-Abaa629f6", "rank": "3"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T09:48:18.547Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "docid": "S797b35ea-Ac49f5afe", "rank": "4"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T09:48:18.547Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "docid": "S22b33081-Aef2c4044", "rank": "5"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T09:48:18.547Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "docid": "Sfb47c4dc-A94839982", "rank": "6"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T09:48:18.547Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "docid": "S29d685d9-A2003667e", "rank": "7"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T09:48:18.548Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "docid": "S72b717aa-A5b71474b", "rank": "8"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T09:48:18.548Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "docid": "Sc952d8ae-Aa7b89e4b", "rank": "9"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T09:48:18.548Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "docid": "S4733bf42-Aa2caea", "rank": "10"}
+{"type": "ClickedEndTask", "timestamp": "2026-02-06T09:48:26.320Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be"}
+{"type": "TaskContinued", "timestamp": "2026-02-06T09:48:28.213Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be"}
+{"type": "StanceClicked", "timestamp": "2026-02-06T09:48:28.832Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "rank": "1", "stance": "pro", "action": "chooseStance", "doc": "S797b35ea-Ac49f5afe", "doclen": 2282}
+{"type": "StanceClicked", "timestamp": "2026-02-06T09:48:29.710Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "rank": "2", "stance": "con", "action": "chooseStance", "doc": "Sa5cb0429-Afd3a1107", "doclen": 1098}
+{"type": "StanceClicked", "timestamp": "2026-02-06T09:48:30.335Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "rank": "3", "stance": "pro", "action": "chooseStance", "doc": "Sb567d75f-Aa76a4a58", "doclen": 341}
+{"type": "StanceClicked", "timestamp": "2026-02-06T09:48:31.353Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "rank": "4", "stance": "con", "action": "chooseStance", "doc": "S4733bf42-Aa2caea", "doclen": 593}
+{"type": "StanceClicked", "timestamp": "2026-02-06T09:48:32.354Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "rank": "5", "stance": "pro", "action": "chooseStance", "doc": "S9c07825d-A7ebb10f7", "doclen": 688}
+{"type": "StanceClicked", "timestamp": "2026-02-06T09:48:32.908Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "rank": "6", "stance": "con", "action": "chooseStance", "doc": "S8b9f6fe1-A3b2b123", "doclen": 1353}
+{"type": "StanceClicked", "timestamp": "2026-02-06T09:48:33.964Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "rank": "7", "stance": "pro", "action": "chooseStance", "doc": "S62c89a27-A42753987", "doclen": 1469}
+{"type": "StanceClicked", "timestamp": "2026-02-06T09:48:34.482Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "rank": "8", "stance": "con", "action": "chooseStance", "doc": "S2c7e2b00-A457db05", "doclen": 700}
+{"type": "StanceClicked", "timestamp": "2026-02-06T09:48:35.714Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "rank": "9", "stance": "pro", "action": "chooseStance", "doc": "Sb567d819-Aa73fb6e6", "doclen": 616}
+{"type": "StanceClicked", "timestamp": "2026-02-06T09:48:36.786Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "rank": "10", "stance": "pro", "action": "chooseStance", "doc": "S797b35ea-Abaa629f6", "doclen": 1286}
+{"type": "StanceClicked", "timestamp": "2026-02-06T09:48:38.798Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "rank": "7", "stance": "con", "action": "chooseStance", "doc": "S62c89a27-A42753987", "doclen": 1469}
+{"type": "toggleArgument", "timestamp": "2026-02-06T09:48:41.185Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "rank": "8", "doc": "S2c7e2b00-A457db05", "action": "expand", "doclen": 700}
+{"type": "toggleArgument", "timestamp": "2026-02-06T09:48:42.743Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "rank": "7", "doc": "S62c89a27-A42753987", "action": "expand", "doclen": 1469}
+{"type": "toggleArgument", "timestamp": "2026-02-06T09:48:43.422Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "rank": "6", "doc": "S8b9f6fe1-A3b2b123", "action": "expand", "doclen": 1353}
+{"type": "ClickedEndTask", "timestamp": "2026-02-06T09:48:44.794Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-02-06T09:48:45.634Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be"}
+{"type": "TaskEnded", "timestamp": "2026-02-06T09:48:51.116Z", "sessionID": "97cef4b9-793c-405f-b33e-e7acf37b00be", "reason": "done searching for this task"}

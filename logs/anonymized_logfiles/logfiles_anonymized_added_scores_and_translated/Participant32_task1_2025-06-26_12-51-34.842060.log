@@ -1,0 +1,368 @@
+{"type": "idSubmitted", "timestamp": "2025-06-26T12:35:34.150Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "uid": "Participant32"}
+{"type": "TaskStarted", "timestamp": "2025-06-26T12:40:41.183Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "task": "1", "uid": "Participant32", "topic": "Should marijuana be a medical option?"}
+{"type": "queryBoxFocused", "timestamp": "2025-06-26T12:40:46.025Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6"}
+{"type": "querySubmitted", "timestamp": "2025-06-26T12:40:58.951Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "query": "marijuana medical advantadges"}
+{"docno": "Sffcf93d6-A3fd53ecc", "score": 24.463231338112337}
+{"docno": "Sd267acf3-Aa6bd58db", "score": 24.278865377013496}
+{"docno": "Sffcf93d6-A2605b292", "score": 23.790345412543353}
+{"docno": "Sd7c339a6-A8f5e1583", "score": 23.742203328029916}
+{"docno": "S82c12bae-A631696da", "score": 23.69445969974945}
+{"docno": "S5992fb47-Af28b1906", "score": 23.131037772235267}
+{"docno": "S3f13792b-Aca7a01b6", "score": 22.84968761412449}
+{"docno": "S82c12bae-Ae965077a", "score": 22.81133074904001}
+{"docno": "Sbc00ee1b-Af5c22e58", "score": 22.800538048208303}
+{"docno": "S87b8c230-Ab982a302", "score": 22.74828028634579}
+{"docno": "S6231ab47-A2648fac7", "score": 22.702857376947556}
+{"docno": "Sffcf93d6-Ad5b7b887", "score": 22.672800760868775}
+{"docno": "S4d3852ce-A7a9cb25c", "score": 22.647712506446812}
+{"docno": "S174daad7-A5bac6cf5", "score": 22.615943529597942}
+{"docno": "S87b8c230-Ae66fa069", "score": 22.60618254287252}
+{"docno": "Sfa1a69b6-A4927216b", "score": 22.484468079534665}
+{"docno": "S174daab8-A323e5869", "score": 22.480079481936098}
+{"docno": "S9821cb64-A7d435239", "score": 22.430127161730006}
+{"docno": "S7e67fe99-A504f8bd9", "score": 22.414169288736854}
+{"docno": "Sde9f97e-Aed4b2340", "score": 22.384522668543937}
+{"docno": "Sd267a913-A52ab6400", "score": 22.33484777654046}
+{"docno": "S5811e631-A138a978f", "score": 22.325738676750383}
+{"docno": "Sd267a970-A809c0365", "score": 22.24551099452747}
+{"docno": "S87b8c230-A335697b3", "score": 22.24354502977825}
+{"docno": "S174daa99-A230360ae", "score": 22.167066351373215}
+{"docno": "S87b8c230-A8936fc22", "score": 22.147521742805104}
+{"docno": "S174daad7-Aef55d12d", "score": 22.07305412457158}
+{"docno": "S2a0ef4cd-A8be9eccc", "score": 21.954856688812207}
+{"docno": "S87b8c230-A815767a7", "score": 21.94303656845218}
+{"docno": "Sd267acd4-Ae95c4062", "score": 21.904077681983352}
+{"docno": "S174dab53-A28a26f98", "score": 21.881658785191718}
+{"docno": "S4d3852ce-A5cf38a0d", "score": 21.862196892651983}
+{"docno": "Sd267a533-A65a6240e", "score": 21.837921320273388}
+{"docno": "Sc6aab7ec-A26b0e029", "score": 21.81637632654792}
+{"docno": "Sd267a533-A56cb99c8", "score": 21.799180590130938}
+{"docno": "S7e67fe99-Aac7b05a6", "score": 21.726819478753235}
+{"docno": "Sd267a533-A91175b29", "score": 21.693131115940503}
+{"docno": "S1d872123-A542f72d5", "score": 21.667480418383533}
+{"docno": "Sd3a6203-A535b9f35", "score": 21.647925550982546}
+{"docno": "S94bd510e-A5459cfd0", "score": 21.647925550982546}
+{"docno": "S1d872123-A60333bed", "score": 21.643963234252915}
+{"docno": "Sc0ff09ad-Adb818ea9", "score": 21.567945591663133}
+{"docno": "Sd267a8d5-Aaf6ab26", "score": 21.551311310911025}
+{"docno": "Sd267a8f4-Aaf6ab26", "score": 21.551311310911025}
+{"docno": "Sdd2367fa-A8e99b264", "score": 21.507528567424764}
+{"docno": "S34ee1a0c-A9939ab07", "score": 21.454997593762045}
+{"docno": "S59d1fcb7-Ae1174a66", "score": 21.454524755138827}
+{"docno": "Sd267a5af-Aba09b5cd", "score": 21.398968936963442}
+{"docno": "S84f999d5-A8ec3778e", "score": 21.370748858619592}
+{"docno": "Sd267a8f4-A787674b5", "score": 21.34810377763776}
+{"docno": "Sffcf93d6-A7e0a4cb8", "score": 21.328306082637383}
+{"docno": "S8160cfd9-A17528876", "score": 21.26657447636498}
+{"docno": "Sd267a913-Aa8dee48a", "score": 21.261252048249077}
+{"docno": "S4d3852ce-Ab0de595d", "score": 21.14831524451436}
+{"docno": "Sc0881ce0-Ad0d4a11f", "score": 21.1361836780803}
+{"docno": "Sd267a5af-Af6ed45ca", "score": 21.069717835067152}
+{"docno": "S87b8c230-A2544d4ae", "score": 21.042511651261155}
+{"docno": "S87b8c230-A88d3588f", "score": 20.989263441982704}
+{"docno": "S87b8c230-A16ba701b", "score": 20.989263441982704}
+{"docno": "S4aba565e-Afb511673", "score": 20.94582671291775}
+{"docno": "S5811e631-A43af67ba", "score": 20.87971803181439}
+{"docno": "S86fca339-A1e095f63", "score": 20.879406738133202}
+{"docno": "Sd0a9155a-A6d37b03", "score": 20.858084741744186}
+{"docno": "Sd0a91598-A7a347953", "score": 20.77955014771245}
+{"docno": "S86fcaef8-A6f5fad27", "score": 20.778780012836712}
+{"docno": "Se1d1a698-Af74b5002", "score": 20.760620263931077}
+{"docno": "Sd9e09240-Adda7f7e7", "score": 20.74795524705057}
+{"docno": "S87b8c230-A9a43b3f8", "score": 20.734653301549763}
+{"docno": "S87b8c230-A25a9debf", "score": 20.734653301549763}
+{"docno": "Sd267a5af-A5b56c77d", "score": 20.730886489353885}
+{"docno": "S6f02a9c0-Afec57ef7", "score": 20.691964085796485}
+{"docno": "Sd267a533-A8a9f4481", "score": 20.6913112987899}
+{"docno": "S575d7a7e-Abeb20d4a", "score": 20.656450959822358}
+{"docno": "Sefda0a4-A63cb178e", "score": 20.54792532096735}
+{"docno": "S4d3852ce-A8d621900", "score": 20.529814990620732}
+{"docno": "S6231abc3-A4835258", "score": 20.35382097125921}
+{"docno": "Sfad1e94f-Aa12d0c5e", "score": 20.320353422327955}
+{"docno": "Sc6aab7ec-A3198311b", "score": 20.27550907363122}
+{"docno": "S575d7a7e-A3f883307", "score": 20.235303134277764}
+{"docno": "Sd0a91598-A80108c64", "score": 20.226431106068276}
+{"docno": "S7e67fe99-A72c8aac4", "score": 20.208162464722637}
+{"docno": "S87b8c230-A3d9dc439", "score": 20.208019776816478}
+{"docno": "S1e41344d-A8434cf5", "score": 20.183027154758513}
+{"docno": "S35e725d0-Aa6a128f", "score": 20.17261820764912}
+{"docno": "S2bdac55a-Af9835cec", "score": 20.133460826426557}
+{"docno": "S4e37ca8c-A3e406e2a", "score": 20.12577570337994}
+{"docno": "S575d7a7e-A6aeee4fa", "score": 20.117465475563442}
+{"docno": "S174dab34-A9800b986", "score": 20.106950139912758}
+{"docno": "Sc416877b-Aed6c4f60", "score": 20.09229958510329}
+{"docno": "S9dfd81a-Af2508a98", "score": 20.04042723979741}
+{"docno": "Sfbfca9a3-Ac48ec78", "score": 20.03426705405458}
+{"docno": "S87b8c230-A24b75240", "score": 20.027343267880543}
+{"docno": "S35e725d0-A6b9cf711", "score": 20.02602854901465}
+{"docno": "Sac68873d-Ac713f552", "score": 20.01750921492922}
+{"docno": "Se5ccda7-A230c1610", "score": 19.951118169823268}
+{"docno": "S87b8c230-Aa6d5de5e", "score": 19.926732112726384}
+{"docno": "S174daa99-Abeab590c", "score": 19.892487480587096}
+{"docno": "S44c2bf2a-A4d43725b", "score": 19.873878186241086}
+{"docno": "S87b8c230-A89d74195", "score": 19.865034015276755}
+{"docno": "Sc6aab7ec-Ad5be6a9a", "score": 19.845254470602207}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:41:27.350Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "3", "doc": "Sffcf93d6-A2605b292", "action": "expand", "doclen": 2078, "score": 23.790345412543353}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:42:05.935Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "10", "doc": "S87b8c230-Ab982a302", "action": "expand", "doclen": 420, "score": 22.74828028634579}
+{"type": "StanceClicked", "timestamp": "2025-06-26T12:42:10.200Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "10", "stance": "pro", "action": "chooseStance", "doc": "S87b8c230-Ab982a302", "doclen": 420, "score": 22.74828028634579}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:42:13.519Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "9", "doc": "Sbc00ee1b-Af5c22e58", "action": "expand", "doclen": 2116, "score": 22.800538048208303}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:42:37.575Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "7", "doc": "S3f13792b-Aca7a01b6", "action": "expand", "doclen": 501, "score": 20.637657500057607}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:42:48.783Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "6", "doc": "S5992fb47-Af28b1906", "action": "expand", "doclen": 584, "score": 23.131037772235267}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:42:58.495Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "4", "doc": "Sd7c339a6-A8f5e1583", "action": "expand", "doclen": 1472, "score": 19.519474689780772}
+{"type": "StanceClicked", "timestamp": "2025-06-26T12:43:11.631Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "4", "stance": "pro", "action": "chooseStance", "doc": "Sd7c339a6-A8f5e1583", "doclen": 1472, "score": 19.519474689780772}
+{"type": "queryBoxFocused", "timestamp": "2025-06-26T12:43:13.913Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6"}
+{"type": "querySubmitted", "timestamp": "2025-06-26T12:43:24.864Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "query": "marijuana legalization medicine"}
+{"docno": "Sd9e09240-Adda7f7e7", "score": 30.282320500629815}
+{"docno": "S421114c2-A32a39c43", "score": 30.15865181502443}
+{"docno": "S575d7a7e-Abeb20d4a", "score": 30.026195067501803}
+{"docno": "S89fd39b5-Ac5a76507", "score": 29.682219890763264}
+{"docno": "S66907055-A393eddd6", "score": 29.454970069176333}
+{"docno": "Sc6aab7ec-A66594f58", "score": 29.344779667834207}
+{"docno": "Sb14ffcd0-A31582eae", "score": 29.310415182039403}
+{"docno": "Sc0881ce0-Ad0d4a11f", "score": 29.071771284457352}
+{"docno": "S4ab35585-A68bba80e", "score": 28.88066618144247}
+{"docno": "Seec21427-Ab61404e", "score": 28.612393769250787}
+{"docno": "S678a1efc-A73c2b2d8", "score": 28.519566541489}
+{"docno": "S74e915ac-A2540ac96", "score": 28.403332763525455}
+{"docno": "S86fca776-Acc3cdae4", "score": 28.313259436905387}
+{"docno": "S87b8c230-A6a2e950b", "score": 28.287215226488545}
+{"docno": "Sd9c294ad-A65bf9eca", "score": 28.262965611947777}
+{"docno": "Sd267acf3-Aa6bd58db", "score": 28.13779367327327}
+{"docno": "S5d56b6d8-A7103a830", "score": 28.06354731417859}
+{"docno": "S6c71015a-A3605fbe1", "score": 27.941475775959972}
+{"docno": "S4d3852ce-A69468ca5", "score": 27.84780497132104}
+{"docno": "Sd267a533-A8a9f4481", "score": 27.79165065042536}
+{"docno": "Sd9e09240-Abcba1810", "score": 27.751143607551278}
+{"docno": "Sd267a533-A65a6240e", "score": 27.488519623121327}
+{"docno": "S4ab35585-Ac36f2e44", "score": 27.41271275852322}
+{"docno": "Sb14ffcd0-A69c98a3e", "score": 26.984848439447795}
+{"docno": "S35044bb3-A76f2573d", "score": 26.97886456228064}
+{"docno": "Sae9c57ab-Ab625ff60", "score": 26.952755308792053}
+{"docno": "S35044b75-A6f2b8ba4", "score": 26.949060580293924}
+{"docno": "S4d3852ce-A5cf38a0d", "score": 26.912345985694593}
+{"docno": "Sb075eec1-A3d85bb54", "score": 26.912056109187752}
+{"docno": "Sdc68ec3e-A3574da4a", "score": 26.79339753048025}
+{"docno": "Sffcf93d6-A3fd53ecc", "score": 26.712657771877282}
+{"docno": "S35e725d0-Aa6a128f", "score": 26.6853332994967}
+{"docno": "S575d7a7e-Ab9962fbf", "score": 26.6761028156946}
+{"docno": "S9821cb64-A7d435239", "score": 26.614540895008297}
+{"docno": "S55508c0e-Ae3b82bcb", "score": 26.56455523222011}
+{"docno": "S35e725d0-A2f54feaf", "score": 26.41801156108188}
+{"docno": "S421114c2-Ae7ea7fab", "score": 26.40143729963475}
+{"docno": "Sfbfca9a3-Ac7e2917", "score": 26.357920234217655}
+{"docno": "S59d1f8b8-Ac892c183", "score": 26.13660868363307}
+{"docno": "S4db649d3-A9f730c0e", "score": 26.00770812496278}
+{"docno": "Sb4affe28-A2d1b66a6", "score": 25.99968069082432}
+{"docno": "Sd9e092bc-A9d8faf3a", "score": 25.975602146902396}
+{"docno": "Sbb8abd7a-A41e2f17d", "score": 25.840696377683493}
+{"docno": "S43987864-A7a5477fc", "score": 25.64609414045664}
+{"docno": "Sd267a533-A56cb99c8", "score": 25.508213114660283}
+{"docno": "Sbb8abd5b-Aeeeb966c", "score": 25.5050668971714}
+{"docno": "S5703a6b0-Ae9b5a90e", "score": 25.479213850920136}
+{"docno": "S421114c2-Ac1c1f41f", "score": 25.460451987430112}
+{"docno": "S342a26ba-A70bfb0fc", "score": 25.437096653310633}
+{"docno": "S35044b94-Ab308eb5f", "score": 25.432016922368646}
+{"docno": "Sd267a8f4-A485c08c2", "score": 25.350321014467504}
+{"docno": "S59d1f83c-A5b6191a7", "score": 25.338432818793336}
+{"docno": "S174dab53-A28a26f98", "score": 25.197912884865282}
+{"docno": "Sffcf93d6-Ad5b7b887", "score": 25.137479005922703}
+{"docno": "S58da0abd-Af3edef88", "score": 25.01570907582175}
+{"docno": "S59d1fc3b-A19ae8066", "score": 24.99347205179293}
+{"docno": "S66907055-A830542d5", "score": 24.917461867258407}
+{"docno": "Saaec8cf8-Abf73b2c9", "score": 24.88684440258193}
+{"docno": "S174dab15-Ac9a1681c", "score": 24.84901859717}
+{"docno": "S84f999d5-Afc0ad91b", "score": 24.73594842747724}
+{"docno": "S5811e650-A60212fe7", "score": 24.68848917336347}
+{"docno": "S89fd39b5-A689a1065", "score": 24.683445839775796}
+{"docno": "Sd9e09240-A1d95e386", "score": 24.602702525629464}
+{"docno": "S90bdd48b-A9afe11e3", "score": 24.50098272334335}
+{"docno": "S8c493086-A1db59bee", "score": 24.31412949386315}
+{"docno": "S4d3852ce-A7a9cb25c", "score": 24.311465617316237}
+{"docno": "S86da9e6a-A60d728a7", "score": 24.238898565815973}
+{"docno": "Sbb8abd5b-A1b85ef09", "score": 24.22232271636569}
+{"docno": "S87b8c230-Ad7fcbd85", "score": 23.93441150742207}
+{"docno": "Sd267a8d5-A9ea90eeb", "score": 23.883745633866795}
+{"docno": "S58da0adc-A7b08659f", "score": 23.875962168280324}
+{"docno": "S174daab8-A323e5869", "score": 23.841793411493434}
+{"docno": "Se1d1a698-Af74b5002", "score": 23.726167633028446}
+{"docno": "S87b8c230-A341e1515", "score": 23.70469252981373}
+{"docno": "Sd267a8f4-A8cc2db34", "score": 23.604444912915255}
+{"docno": "Sb0a1297b-A9e5e5d66", "score": 23.492906985287874}
+{"docno": "Sfad1e94f-Aa12d0c5e", "score": 23.412193057609517}
+{"docno": "S111ea869-Af644fe61", "score": 23.353490036266784}
+{"docno": "S4d3852ce-A61f8e96d", "score": 23.204848005559402}
+{"docno": "S90bdd46c-Adcc6e051", "score": 23.18050657032338}
+{"docno": "S9bf42280-Aa7d63b1c", "score": 23.08121520951979}
+{"docno": "S86fca339-A1e095f63", "score": 23.064482388525374}
+{"docno": "S460ae065-Aafe768aa", "score": 23.038218638840142}
+{"docno": "Saaec8cf8-Ad257274c", "score": 22.962845341186643}
+{"docno": "Sfbfca9a3-A2cbd26ed", "score": 22.96021203777006}
+{"docno": "S21af0c6a-Ab0c96fed", "score": 22.88899814878494}
+{"docno": "Sc0ff09ad-A41cf1669", "score": 22.8773411504937}
+{"docno": "Sde9f97e-A6b55083a", "score": 22.803240955734772}
+{"docno": "S421114c2-Ae3803e78", "score": 22.7884695688699}
+{"docno": "S986b9b3c-A8ea96679", "score": 22.671755244519503}
+{"docno": "Sfa1a69b6-A4a893049", "score": 22.628962234056615}
+{"docno": "Sffcf93d6-A7e0a4cb8", "score": 22.597113448565416}
+{"docno": "S23734551-Ab381e1a4", "score": 22.568768891800538}
+{"docno": "S8a17f46f-Afa9cf793", "score": 22.497591039211496}
+{"docno": "S421114c2-Ab36d19dc", "score": 22.358916154085616}
+{"docno": "S93ed752f-A6157ba0d", "score": 22.219025076701655}
+{"docno": "S66036747-A7b7c3c", "score": 22.16191258517074}
+{"docno": "S4f2bd943-A557f1054", "score": 22.04532230882299}
+{"docno": "S110247dd-Acfc692b7", "score": 22.005681805237167}
+{"docno": "S14b9fbe0-A450062a7", "score": 21.988558487908847}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:43:28.191Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "1", "doc": "Sd9e09240-Adda7f7e7", "action": "expand", "doclen": 445, "score": 20.90526980217969}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:43:41.583Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "5", "doc": "S66907055-A393eddd6", "action": "expand", "doclen": 1197, "score": 17.764459425154143}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:43:52.695Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "7", "doc": "Sb14ffcd0-A31582eae", "action": "expand", "doclen": 908, "score": 22.690983276011238}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:44:05.103Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "9", "doc": "S4ab35585-A68bba80e", "action": "expand", "doclen": 364, "score": 21.635876131896616}
+{"type": "pageNavigationClicked", "timestamp": "2025-06-26T12:44:12.967Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "clicked": "2", "fromPage": 1, "toPage": 2}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:44:15.615Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "12", "doc": "S74e915ac-A2540ac96", "action": "expand", "doclen": 295, "score": 8.027092184721063}
+{"type": "StanceClicked", "timestamp": "2025-06-26T12:44:24.696Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "12", "stance": "pro", "action": "chooseStance", "doc": "S74e915ac-A2540ac96", "doclen": 295, "score": 8.027092184721063}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:44:27.095Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "13", "doc": "S86fca776-Acc3cdae4", "action": "expand", "doclen": 386, "score": 21.163352129376857}
+{"type": "StanceClicked", "timestamp": "2025-06-26T12:44:41.728Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "13", "stance": "pro", "action": "chooseStance", "doc": "S86fca776-Acc3cdae4", "doclen": 386, "score": 21.163352129376857}
+{"type": "StanceClicked", "timestamp": "2025-06-26T12:44:42.904Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "14", "stance": "pro", "action": "chooseStance", "doc": "S87b8c230-A6a2e950b", "doclen": 472, "score": 19.617508150736327}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:44:46.231Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "17", "doc": "S5d56b6d8-A7103a830", "action": "expand", "doclen": 157, "score": 21.51657527314555}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:44:47.063Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "17", "doc": "S5d56b6d8-A7103a830", "action": "reduce", "doclen": 157, "score": 21.51657527314555}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:44:49.255Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "18", "doc": "S6c71015a-A3605fbe1", "action": "expand", "doclen": 478, "score": 12.894430617108812}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:44:56.327Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "20", "doc": "Sd267a533-A8a9f4481", "action": "expand", "doclen": 750, "score": 19.730057638383627}
+{"type": "pageNavigationClicked", "timestamp": "2025-06-26T12:45:01.256Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "clicked": "5", "fromPage": 2, "toPage": 5}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:45:06.896Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "44", "doc": "S43987864-A7a5477fc", "action": "expand", "doclen": 2644, "score": 19.646208360951917}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:45:12.928Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "47", "doc": "S5703a6b0-Ae9b5a90e", "action": "expand", "doclen": 1314, "score": 22.40627319415024}
+{"type": "queryBoxFocused", "timestamp": "2025-06-26T12:45:19.410Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6"}
+{"type": "querySubmitted", "timestamp": "2025-06-26T12:45:28.536Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "query": "medical marijuana harmful"}
+{"docno": "Sffcf93d6-A3fd53ecc", "score": 28.320392748979298}
+{"docno": "Sc0ff09ad-Adb818ea9", "score": 28.154485261458955}
+{"docno": "S174daa99-A230360ae", "score": 27.844994976374984}
+{"docno": "Sbc00ee1b-Af5c22e58", "score": 27.774220470213443}
+{"docno": "Sd267a533-A8a9f4481", "score": 27.688652428885227}
+{"docno": "S174daad7-Aef55d12d", "score": 27.542423314145395}
+{"docno": "S5811e631-A138a978f", "score": 27.4548197234739}
+{"docno": "S4d3852ce-A8d621900", "score": 27.180475576650274}
+{"docno": "S34ee1a0c-A9939ab07", "score": 27.13065357546469}
+{"docno": "S82c12bae-A631696da", "score": 26.341595273397267}
+{"docno": "Sd5bee444-Aa911f60d", "score": 26.204541323250062}
+{"docno": "Sd267a970-A809c0365", "score": 26.16972999039021}
+{"docno": "Sd267a533-A806366f1", "score": 26.007584630890747}
+{"docno": "S1e41344d-A8434cf5", "score": 25.85868313646116}
+{"docno": "S35e725d0-A6b9cf711", "score": 25.764098274150378}
+{"docno": "S1d872123-A542f72d5", "score": 25.643542944184095}
+{"docno": "Sd267acd4-Ae95c4062", "score": 25.528955108701762}
+{"docno": "S9288ec5d-A19147d56", "score": 25.22351429344501}
+{"docno": "S59d1fc3b-Af17ed1aa", "score": 25.134021925593526}
+{"docno": "S370e2932-Ab8811890", "score": 25.03593101749467}
+{"docno": "Sffcf93d6-A7e0a4cb8", "score": 24.98252517556889}
+{"docno": "S87b8c230-Aa6d5de5e", "score": 24.831576598744782}
+{"docno": "S59d1fc3b-A20e9dd13", "score": 24.793621103655415}
+{"docno": "S4db649d3-A9f730c0e", "score": 24.705283056610863}
+{"docno": "S86fca3d4-A539b2d72", "score": 24.64890471794788}
+{"docno": "Sd6ea2156-Ab8959970", "score": 24.5474776972248}
+{"docno": "S5811e631-A43af67ba", "score": 24.5045954585328}
+{"docno": "Scf97ca8b-Ae98b52b6", "score": 24.492442940991864}
+{"docno": "S174daad7-A5115edee", "score": 24.417261951388177}
+{"docno": "Sffcf93d6-Acc2600ee", "score": 24.387019222450178}
+{"docno": "S9dfd7dc-A2156db6e", "score": 24.28557318256312}
+{"docno": "Sd267acf3-Aa6bd58db", "score": 24.278865377013496}
+{"docno": "Sa87b0d37-Afccae6a1", "score": 24.194914187630182}
+{"docno": "S6c71015a-A698f7812", "score": 24.17625770503825}
+{"docno": "S111ea869-A4dbe1498", "score": 24.070596478709938}
+{"docno": "Sd0a91598-A7a347953", "score": 24.038120483945626}
+{"docno": "S86da9e6a-A6f519bfe", "score": 23.960265526831186}
+{"docno": "Se3b7cf32-A604f6687", "score": 23.914629487224502}
+{"docno": "Sd267a8d5-A9ea90eeb", "score": 23.86524981379975}
+{"docno": "Sffcf93d6-A2605b292", "score": 23.790345412543353}
+{"docno": "S23734551-Aac5a05ad", "score": 23.756366377685644}
+{"docno": "Sd7c339a6-A8f5e1583", "score": 23.742203328029916}
+{"docno": "S7d4151af-A773b1482", "score": 23.632776332428946}
+{"docno": "Saa2a4a53-A99c7a196", "score": 23.558398590466474}
+{"docno": "Sd0a91598-A80108c64", "score": 23.544883900025965}
+{"docno": "S5811e631-A2882c72c", "score": 23.440101085490944}
+{"docno": "Sd267a8f4-A8cc2db34", "score": 23.438244009827322}
+{"docno": "S5811e631-Aec1816fd", "score": 23.134430036716378}
+{"docno": "S5992fb47-Af28b1906", "score": 23.131037772235267}
+{"docno": "Saaec8cf8-Abf73b2c9", "score": 23.10605830674706}
+{"docno": "S7c8b175c-A1b1fa9a4", "score": 22.927392709231416}
+{"docno": "S3f13792b-Aca7a01b6", "score": 22.84968761412449}
+{"docno": "S35e725d0-Aa6a128f", "score": 22.83536739062676}
+{"docno": "S82c12bae-Ae965077a", "score": 22.81133074904001}
+{"docno": "S2c3f2b73-Aec10a304", "score": 22.79010033517195}
+{"docno": "S74e91666-A3a94c1d3", "score": 22.748579827975135}
+{"docno": "S87b8c230-Ab982a302", "score": 22.74828028634579}
+{"docno": "S84f999d5-Afc0ad91b", "score": 22.727710527812548}
+{"docno": "S6231ab47-A2648fac7", "score": 22.702857376947556}
+{"docno": "Sffcf93d6-Ad5b7b887", "score": 22.672800760868775}
+{"docno": "S4d3852ce-A7a9cb25c", "score": 22.647712506446812}
+{"docno": "S174daad7-A5bac6cf5", "score": 22.615943529597942}
+{"docno": "S87b8c230-Ae66fa069", "score": 22.60618254287252}
+{"docno": "S9288ec5d-Af97a14f", "score": 22.601273223897888}
+{"docno": "S52993a21-A4730c254", "score": 22.494444798841506}
+{"docno": "Sfa1a69b6-A4927216b", "score": 22.484468079534665}
+{"docno": "S174daab8-A323e5869", "score": 22.480079481936098}
+{"docno": "S35044bb3-A76f2573d", "score": 22.45509938327063}
+{"docno": "S37920915-Aea62a417", "score": 22.443588333449092}
+{"docno": "S9821cb64-A7d435239", "score": 22.430127161730006}
+{"docno": "S35044b75-A6f2b8ba4", "score": 22.430074209512963}
+{"docno": "S7e67fe99-A504f8bd9", "score": 22.414169288736854}
+{"docno": "Sde9f97e-Aed4b2340", "score": 22.384522668543937}
+{"docno": "Sd267a913-A52ab6400", "score": 22.33484777654046}
+{"docno": "Sbb8abd7a-A41e2f17d", "score": 22.25865624698375}
+{"docno": "S87b8c230-A335697b3", "score": 22.24354502977825}
+{"docno": "S87b8c230-A8936fc22", "score": 22.147521742805104}
+{"docno": "Sbc00ee1b-A11843870", "score": 22.124390915486575}
+{"docno": "S946d6765-A3567201", "score": 22.082288595562357}
+{"docno": "S828401bd-A65dcb824", "score": 22.004607061335488}
+{"docno": "Sbb8abd5b-Aeeeb966c", "score": 21.963723996146914}
+{"docno": "S2a0ef4cd-A8be9eccc", "score": 21.954856688812207}
+{"docno": "S87b8c230-A815767a7", "score": 21.94303656845218}
+{"docno": "S35044b94-Ab308eb5f", "score": 21.899708488770408}
+{"docno": "Sd267ad12-Aedf30aa6", "score": 21.897317226524592}
+{"docno": "S174dab53-A28a26f98", "score": 21.881658785191718}
+{"docno": "S4d3852ce-A5cf38a0d", "score": 21.862196892651983}
+{"docno": "Sd267a533-A65a6240e", "score": 21.837921320273388}
+{"docno": "Sc6aab7ec-A26b0e029", "score": 21.81637632654792}
+{"docno": "S174daad7-A11b40412", "score": 21.810961006001506}
+{"docno": "Sd267a533-A56cb99c8", "score": 21.799180590130938}
+{"docno": "S7e67fe99-Aac7b05a6", "score": 21.726819478753235}
+{"docno": "Sd9e091c4-A3dd69dd1", "score": 21.70043975657183}
+{"docno": "Sd267a533-A91175b29", "score": 21.693131115940503}
+{"docno": "Sd3a6203-A535b9f35", "score": 21.647925550982546}
+{"docno": "S94bd510e-A5459cfd0", "score": 21.647925550982546}
+{"docno": "S1d872123-A60333bed", "score": 21.643963234252915}
+{"docno": "S86fca69d-A2c9afc45", "score": 21.62101007834574}
+{"docno": "S174dab15-A897bc1", "score": 21.574058562482954}
+{"docno": "S6c7100fd-Ab0216ac3", "score": 21.57066220865554}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:45:31.263Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "1", "doc": "Sffcf93d6-A3fd53ecc", "action": "expand", "doclen": 1481, "score": 24.463231338112337}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:45:40.719Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "4", "doc": "Sbc00ee1b-Af5c22e58", "action": "expand", "doclen": 2116, "score": 22.800538048208303}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:45:45.551Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "5", "doc": "Sd267a533-A8a9f4481", "action": "expand", "doclen": 750, "score": 19.730057638383627}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:45:53.599Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "6", "doc": "S174daad7-Aef55d12d", "action": "expand", "doclen": 587, "score": 22.07305412457158}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:46:04.327Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "7", "doc": "S5811e631-A138a978f", "action": "expand", "doclen": 1795, "score": 22.325738676750383}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:46:21.415Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "10", "doc": "S82c12bae-A631696da", "action": "expand", "doclen": 2710, "score": 23.69445969974945}
+{"type": "pageNavigationClicked", "timestamp": "2025-06-26T12:46:53.984Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "clicked": "2", "fromPage": 1, "toPage": 2}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:46:57.640Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "11", "doc": "Sd5bee444-Aa911f60d", "action": "expand", "doclen": 2139, "score": 26.204541323250062}
+{"type": "StanceClicked", "timestamp": "2025-06-26T12:47:11.080Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "11", "stance": "con", "action": "chooseStance", "doc": "Sd5bee444-Aa911f60d", "doclen": 2139, "score": 26.204541323250062}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:47:17.888Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "13", "doc": "Sd267a533-A806366f1", "action": "expand", "doclen": 742, "score": 17.715437162501075}
+{"type": "StanceClicked", "timestamp": "2025-06-26T12:47:29.608Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "13", "stance": "pro", "action": "chooseStance", "doc": "Sd267a533-A806366f1", "doclen": 742, "score": 17.715437162501075}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:47:31.352Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "14", "doc": "S1e41344d-A8434cf5", "action": "expand", "doclen": 524, "score": 19.909582150475966}
+{"type": "StanceClicked", "timestamp": "2025-06-26T12:47:40.064Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "14", "stance": "con", "action": "chooseStance", "doc": "S1e41344d-A8434cf5", "doclen": 524, "score": 19.909582150475966}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:47:48.281Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "16", "doc": "S1d872123-A542f72d5", "action": "expand", "doclen": 1393, "score": 21.667480418383533}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:48:00.297Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "17", "doc": "Sd267acd4-Ae95c4062", "action": "expand", "doclen": 1662, "score": 21.904077681983352}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:48:22.705Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "18", "doc": "S9288ec5d-A19147d56", "action": "expand", "doclen": 755, "score": 25.22351429344501}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:48:38.529Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "19", "doc": "S59d1fc3b-Af17ed1aa", "action": "expand", "doclen": 910, "score": 25.134021925593526}
+{"type": "pageNavigationClicked", "timestamp": "2025-06-26T12:48:42.265Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "clicked": "4", "fromPage": 2, "toPage": 4}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:48:53.834Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "37", "doc": "S86da9e6a-A6f519bfe", "action": "expand", "doclen": 1534, "score": 19.36455716027843}
+{"type": "StanceClicked", "timestamp": "2025-06-26T12:49:11.850Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "37", "stance": "con", "action": "chooseStance", "doc": "S86da9e6a-A6f519bfe", "doclen": 1534, "score": 19.36455716027843}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:49:13.922Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "38", "doc": "Se3b7cf32-A604f6687", "action": "expand", "doclen": 2235, "score": 19.815762609847482}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:49:19.442Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "39", "doc": "Sd267a8d5-A9ea90eeb", "action": "expand", "doclen": 668, "score": 23.883745633866795}
+{"type": "StanceClicked", "timestamp": "2025-06-26T12:49:21.658Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "39", "stance": "pro", "action": "chooseStance", "doc": "Sd267a8d5-A9ea90eeb", "doclen": 668, "score": 23.883745633866795}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:49:25.218Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "40", "doc": "Sffcf93d6-A2605b292", "action": "expand", "doclen": 2078, "score": 23.790345412543353}
+{"type": "pageNavigationClicked", "timestamp": "2025-06-26T12:49:33.322Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "clicked": "6", "fromPage": 4, "toPage": 6}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:49:38.146Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "53", "doc": "S35e725d0-Aa6a128f", "action": "expand", "doclen": 2540, "score": 20.17261820764912}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:49:49.459Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "55", "doc": "S2c3f2b73-Aec10a304", "action": "expand", "doclen": 570, "score": 22.79010033517195}
+{"type": "StanceClicked", "timestamp": "2025-06-26T12:49:50.867Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "55", "stance": "pro", "action": "chooseStance", "doc": "S2c3f2b73-Aec10a304", "doclen": 570, "score": 22.79010033517195}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:49:54.171Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "56", "doc": "S74e91666-A3a94c1d3", "action": "expand", "doclen": 1185, "score": 23.896264606488465}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:50:06.611Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "58", "doc": "S84f999d5-Afc0ad91b", "action": "expand", "doclen": 2348, "score": 21.215140725458884}
+{"type": "pageNavigationClicked", "timestamp": "2025-06-26T12:50:18.603Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "clicked": "8", "fromPage": 6, "toPage": 8}
+{"type": "toggleArgument", "timestamp": "2025-06-26T12:50:25.939Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "rank": "72", "doc": "S7e67fe99-A504f8bd9", "action": "expand", "doclen": 925, "score": 22.414169288736854}
+{"type": "ClickedEndTask", "timestamp": "2025-06-26T12:50:34.771Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6"}
+{"type": "TaskEndConfirmed", "timestamp": "2025-06-26T12:50:38.603Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6"}
+{"type": "TaskEnded", "timestamp": "2025-06-26T12:51:34.772Z", "sessionID": "a24a11d4-30ba-4585-a2ea-2e11045542b6", "reason": "Qualität der Argumente nimmt ab wegen fehlender Nachvollziehbarkeit, wer auf wessen Beitrag antwortet+zunehmender Unsachlichkeit\n", "translated_reason": "The quality of the arguments decreases due to the lack of traceability, whoever responds to whose contribution+increasing incessance"}

@@ -52,14 +52,14 @@
     <aside style="width: 250px; position: sticky; top: 20px; height: fit-content; padding: 1em; background: #f8f9fa; border: 1px solid #ddd; border-radius: 8px;">
         <h5>Task</h5>
         <p>
-        Please find arguments for both sides of a debate regarding the question: <!--Change sidebar task description here--></p><p> <b>{{ reminder <!-- reminder corresponds to the Topic and can be changed in search_app.py -->}}</b>  
+        Please find arguments for both sides of a debate regarding the question: <!--Change sidebar task description here--></p><p> <b>{{ reminder }} <!-- reminder corresponds to the Topic and can be changed in search_app.py --></b>  
         </p> 
         
 
-        <div id="argument-counters" style="margin-top: 1em;">
-            <p><b>Pro: <!--Enter your label here for the sidebar count--></b> <span id="pro-count">0</span></p>
-            <p><b>Con: <!--Enter your label here for the sidebar count--></b> <span id="con-count">0</span></p>
-        </div>
+        <!-- <div id="argument-counters" style="margin-top: 1em;">
+            <p><b>Pro: <!- -Enter your label here for the sidebar count- -></b> <span id="pro-count">0</span></p>
+            <p><b>Con: <!- -Enter your label here for the sidebar count- -></b> <span id="con-count">0</span></p>
+        </div> -->
 
 
         <button type="submit" onclick="openEndTaskModal()" class="btn btn-danger mt-3" id = "end-task-btn" style="width: 70%;background-color: white;color: black;border: 1px solid #28a745;padding: 8px 12px;border-radius: 4px;cursor: pointer;">End Task</button>
@@ -94,10 +94,10 @@
         There is no going back. Do you really want to end the task now?
         </p>
 
-        <div id="savedDocuments">
+        <!-- <div id="savedDocuments">
         <a href="#" id="toggleSavedLink" onclick="toggleSavedTitles(event)">See saved documents ▼</a>
         <ul id="savedTitles" style="display: none;" ></ul>
-        </div>
+        </div> -->
 
         <div class="modal-buttons">
         <button id = "yes-end-btn" class="btn btn-primary" onclick="closeEndTaskModal();openFeedbackModal()">Yes, end task</button>
@@ -214,7 +214,7 @@
             const arrow = document.getElementById(`arrow-${index}`);
             const label = document.getElementById(`toggle-label-${index}`);
             const preview = document.getElementById(`abstract-preview-${index}`);
-            const full = document.getElementById(`abstract-full-${index}`);
+            const full = document.getElementById(`abstract-link-${index}`);
 
             if (full.classList.contains("d-none")) {
             full.classList.remove("d-none");

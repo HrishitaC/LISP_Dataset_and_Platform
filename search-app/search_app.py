@@ -9,20 +9,22 @@ import os
 import csv
 from datetime import datetime
 import re
+import json
 
 
 app = Flask(__name__)
 
 CORS(app)
 
-app.config['SECRET_KEY'] = ''       # Please set a secret key
+app.config['SECRET_KEY'] = 'OtulwLo7gQ'       # Please set a secret key
 app.config.update(
     SESSION_COOKIE_SECURE=False,    
     SESSION_COOKIE_SAMESITE='Lax', 
 )
 
 db_url = "http://search_engine:7002"
-rpp = 20  # Results per Page (Default: 20) 
+# rpp = 20  # Results per Page (Default: 20) 
+rpp = 10  # Results per Page (Default: 20) 
 
 LOG_DIR = 'logs'
 os.makedirs(LOG_DIR, exist_ok=True)
@@ -37,7 +39,7 @@ def sanitize_query(query):
 def load_user_topics(filepath='data/user_topics.csv'):
     topics = {}
     with open(filepath, newline='', encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile, delimiter=';')
+        reader = csv.DictReader(csvfile, delimiter=',')
         for row in reader:
             user = row['uid']
             topics[user] = {
@@ -98,32 +100,62 @@ def result():
     else:
         query = request.args.get("query")
         page = int(request.args.get("page", 1))
-        
-    url = "/ranking?query="
-    url_affix = "&rpp="
-    maxres = '100' # max 10 pages with max 10 results each
-    rpp = 10 # results per page; may be changed later
-    query = sanitize_query(query)
-    end_query = db_url + url + query + url_affix + maxres
+
+    f = open("API_keys.json")
+    data = json.load(f)
+
+    API_KEY = data["serp_api"]["api_key"]
+    SERP_endpoint = data["serp_api"]["SERP_endpoint"]
+    f.close()
+
+    print(API_KEY, SERP_endpoint)
+
+    payload = {
+            'api_key': API_KEY,
+            'engine': "google",
+            'q': query,
+            'json_restrictor': "organic_results",
+            'start': 0
+        }
+
+    SERP_response = requests.get(url=SERP_endpoint, params=payload)
+
+    search_results = SERP_response.json()
+    
+    # url = "/ranking?query="
+    # url_affix = "&rpp="
+    # maxres = '100' # max 10 pages with max 10 results each
+    # rpp = 10 # results per page; may be changed later
+    # query = sanitize_query(query)
+    # end_query = db_url + url + query + url_affix + maxres
     
 
-    try:
-        response = requests.get(end_query)
-    except requests.ConnectionError:
-        return "Connection Error" 
+    # try:
+    #     response = requests.get(end_query)
+    # except requests.ConnectionError:
+    #     return "Connection Error" 
 
-    search_results = response.json()
+    # search_results = response.json()
 
     reminder = USER_TOPICS.get(session.get('user_id'), {}).get(str(session.get('task_number'))+'_full')
 
-    if len(search_results["itemlist"]) == 0:
+    if len(search_results["organic_results"]) == 0:
             return render_template("no_result.html", title="No results found", query= query, show_search=True, reminder=reminder)
     else:
-        total_results = len(search_results["itemlist"])
+        total_results = len(search_results["organic_results"])
         total_pages = min(10, math.ceil(total_results / rpp))
         start = (page - 1) * rpp
         end = start + rpp
-        return render_template("search.html", title="Search Results", search_results = search_results['itemlist'][start:end], query=query, page=page, total_pages = total_pages, show_search=True, reminder=reminder)
+        return render_template("search.html", title="Search Results", search_results = search_results['organic_results'][start:end], query=query, page=page, total_pages = total_pages, show_search=True, reminder=reminder)
+
+    # if len(search_results["itemlist"]) == 0:
+    #         return render_template("no_result.html", title="No results found", query= query, show_search=True, reminder=reminder)
+    # else:
+    #     total_results = len(search_results["itemlist"])
+    #     total_pages = min(10, math.ceil(total_results / rpp))
+    #     start = (page - 1) * rpp
+    #     end = start + rpp
+    #     return render_template("search.html", title="Search Results", search_results = search_results['itemlist'][start:end], query=query, page=page, total_pages = total_pages, show_search=True, reminder=reminder)
     
 @app.route('/log_session', methods=['POST'])
 def log_session():

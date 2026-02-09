@@ -1,0 +1,19 @@
+{"type": "idSubmitted", "timestamp": "2026-02-06T15:13:55.977Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "uid": "Participant1"}
+{"type": "TaskStarted", "timestamp": "2026-02-06T15:14:05.022Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "task": "1", "uid": "Participant1", "topic": "Is human activity primarily responsible for global climate change?"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-06T15:14:06.984Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55"}
+{"type": "querySubmitted", "timestamp": "2026-02-06T15:14:15.519Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "query": "what is climate change"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-06T15:15:09.331Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55"}
+{"type": "querySubmitted", "timestamp": "2026-02-06T15:15:15.191Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "query": "is climate change real"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:15:15.192Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "query": "is climate change real", "docid": "", "rank": "1"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:15:15.192Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "query": "is climate change real", "docid": "", "rank": "2"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:15:15.192Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "query": "is climate change real", "docid": "", "rank": "3"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:15:15.192Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "query": "is climate change real", "docid": "", "rank": "4"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:15:15.192Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "query": "is climate change real", "docid": "", "rank": "5"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:15:15.192Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "query": "is climate change real", "docid": "", "rank": "6"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:15:15.192Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "query": "is climate change real", "docid": "", "rank": "7"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:15:15.192Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "query": "is climate change real", "docid": "", "rank": "8"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:15:15.192Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "query": "is climate change real", "docid": "", "rank": "9"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:15:15.192Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "query": "is climate change real", "docid": "", "rank": "10"}
+{"type": "ClickedEndTask", "timestamp": "2026-02-06T15:15:21.479Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-02-06T15:15:22.393Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55"}
+{"type": "TaskEnded", "timestamp": "2026-02-06T15:15:23.577Z", "sessionID": "532fafec-4cfb-428c-af63-3b21b8ed7e55", "reason": ""}

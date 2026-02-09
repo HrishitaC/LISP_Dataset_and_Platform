@@ -1,0 +1,28 @@
+{"type": "TaskStarted", "timestamp": "2026-02-06T15:07:14.747Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "task": "2", "uid": "Participant1", "topic": "Is cell phone radiation safe?"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-06T15:07:16.135Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac"}
+{"type": "querySubmitted", "timestamp": "2026-02-06T15:07:20.370Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "phone radiation"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-06T15:07:38.423Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac"}
+{"type": "querySubmitted", "timestamp": "2026-02-06T15:07:45.880Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "phone radiation safety"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:45.880Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "phone radiation safety", "docid": "", "rank": "1"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:45.881Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "phone radiation safety", "docid": "", "rank": "2"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:45.881Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "phone radiation safety", "docid": "", "rank": "3"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:45.881Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "phone radiation safety", "docid": "", "rank": "4"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:45.881Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "phone radiation safety", "docid": "", "rank": "5"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:45.881Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "phone radiation safety", "docid": "", "rank": "6"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:45.881Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "phone radiation safety", "docid": "", "rank": "7"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:45.881Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "phone radiation safety", "docid": "", "rank": "8"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:07:45.881Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "phone radiation safety", "docid": "", "rank": "9"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-06T15:07:56.704Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac"}
+{"type": "querySubmitted", "timestamp": "2026-02-06T15:08:02.169Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "risks of phone radiation"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:08:02.169Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "risks of phone radiation", "docid": "", "rank": "1"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:08:02.169Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "risks of phone radiation", "docid": "", "rank": "2"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:08:02.170Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "risks of phone radiation", "docid": "", "rank": "3"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:08:02.170Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "risks of phone radiation", "docid": "", "rank": "4"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:08:02.170Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "risks of phone radiation", "docid": "", "rank": "5"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:08:02.170Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "risks of phone radiation", "docid": "", "rank": "6"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:08:02.170Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "risks of phone radiation", "docid": "", "rank": "7"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:08:02.170Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "risks of phone radiation", "docid": "", "rank": "8"}
+{"type": "SearchResultGenerated", "timestamp": "2026-02-06T15:08:02.170Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "query": "risks of phone radiation", "docid": "", "rank": "9"}
+{"type": "ClickedEndTask", "timestamp": "2026-02-06T15:08:11.402Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-02-06T15:08:12.270Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac"}
+{"type": "TaskEnded", "timestamp": "2026-02-06T15:08:12.861Z", "sessionID": "a8e298a6-a579-4b61-9042-cca90f7b7dac", "reason": ""}

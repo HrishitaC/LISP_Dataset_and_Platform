@@ -11,27 +11,25 @@
         <div class="media-body">
           <!-- Title -->
           <h4>
-            <span>{{ loop.index + 10*(page-1) }}. {{ s.title }}</span>
+            <span>{{ loop.index + 10*(page-1) }}. <a class="result-link" href="{{ s.link }}" id="abstract-link-{{ loop.index }}">{{ s.title }}</a></span>
           </h4>
 
               
 
               <!-- Argument preview -->
               <p class="article-content" id="abstract-preview-{{ loop.index }}">
-                {{ s.argument[:200] }}...                                              
+                {{ s.snippet }} <a class="result-link" href="{{ s.link }}" id="abstract-link-{{ loop.index }}">Read More</a>                                             
               </p>
 
               <!-- Full abstract (initially hidden) -->
-              <p class="article-content d-none" id="abstract-full-{{ loop.index }}">
-                {{ s.argument }}
-              </p>
+              <!-- <a class="result-link" href="{{ s.link }}" id="abstract-link-{{ loop.index }}">{{ s.displayed_link }}</a> -->
 
               <!-- Expand/Collapse Control -->
-              <div class="toggle-abstract" data-index="{{ loop.index }}" data-rank="{{loop.index + 10*(page-1)}}" did = {{s.docid}} style="cursor: pointer; color: #007bff; user-select: none;">
+              <!-- <div class="toggle-abstract" data-index="{{ loop.index }}" data-rank="{{loop.index + 10*(page-1)}}" did = {{s.docid}} style="cursor: pointer; color: #007bff; user-select: none;">
                 <span id="arrow-{{ loop.index }}">▼</span> <span id="toggle-label-{{ loop.index }}">Expand</span>
-              </div>
+              </div> -->
 
-              <div style="display: flex; justify-content: flex-end; gap: 0.5em; margin-top: 0.5em;" id="buttons-{{ loop.index }}">
+              <!-- <div style="display: flex; justify-content: flex-end; gap: 0.5em; margin-top: 0.5em;" id="buttons-{{ loop.index }}">
                 <button type="button"
                         data-type="pro"
                         class="btn btn-outline-success btn-no-focus"
@@ -40,7 +38,7 @@
                         did = {{s.docid}}
                         onclick="toggleArgument('{{ s.docid }}', 'pro')"
                         id="pro-btn-{{ s.docid }}">
-                  Pro                                                      <!-- Change button label here --> 
+                  Pro                                                      <!- - Change button label here - -> 
                 </button>
 
                 <button type="button"
@@ -51,14 +49,15 @@
                         did = {{s.docid}}
                         onclick="toggleArgument('{{ s.docid }}', 'con')"
                         id="con-btn-{{ s.docid }}">
-                Con                                                        <!-- Change button label here -->
+                Con                                                        <!- - Change button label here - ->
                 </button>
-              </div>
+              </div> -->
 
 
           <!-- Date + DocID -->
           <div class="article-metadata" style="display: flex; justify-content: space-between;" id="metadata-{{ loop.index }}_l">
-            <small class="text-muted">{{ s.source_title }}</small>
+            <!-- <small class="text-muted">{{ s.source_title }}</small> -->
+            <small class="text-muted">{{ s.displayed_link }}</small>
             <!--<small class="text-muted">{{ s.date }}</small>   // mostly no existing date-->
           </div>
         </div>
