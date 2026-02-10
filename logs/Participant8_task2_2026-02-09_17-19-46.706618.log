@@ -1,0 +1,3 @@
+{"type": "TaskStarted", "timestamp": "2026-02-09T17:19:45.118Z", "sessionID": "1a69f160-3542-4a46-9ea6-b14cf3917298", "task": "2", "uid": "Participant8", "topic": "Should animals be used for scientific or commercial testing?"}
+{"type": "ClickedEndTask", "timestamp": "2026-02-09T17:19:46.058Z", "sessionID": "1a69f160-3542-4a46-9ea6-b14cf3917298"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-02-09T17:19:46.719Z", "sessionID": "1a69f160-3542-4a46-9ea6-b14cf3917298"}

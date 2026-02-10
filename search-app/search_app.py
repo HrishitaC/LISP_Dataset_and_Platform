@@ -75,7 +75,8 @@ def start_page():
         user_id = request.form.get('user_id')
         session['user_id'] = user_id
         session['task_number'] = '1'
-        return redirect(url_for('task'))
+        # return redirect(url_for('task'))
+        return redirect(url_for('home'))
     with open("data/uids.txt") as f:
         val_ids = [line.strip() for line in f if line.strip()]
     return render_template('start.html', show_search=False, valid_ids = val_ids)
@@ -184,13 +185,16 @@ def log_session():
 
 @app.route('/end', methods=['POST'])
 def end_task():
-    task_number = session.get('task_number')
-    if task_number == '1':
-        session['task_number'] = '2'
-        return redirect(url_for('task'))
-    else:
-        session.clear()
-        return redirect(url_for('thank_you'))
+    session.clear()
+    return redirect(url_for('thank_you'))
+
+    # task_number = session.get('task_number')
+    # if task_number == '1':
+    #     session['task_number'] = '2'
+    #     return redirect(url_for('task'))
+    # else:
+    #     session.clear()
+    #     return redirect(url_for('thank_you'))
 
 @app.route('/thank_you')
 def thank_you():

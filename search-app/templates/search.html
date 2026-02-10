@@ -13,53 +13,60 @@
           <h4>
             <span>{{ loop.index + 10*(page-1) }}. <a class="result-link" href="{{ s.link }}" id="abstract-link-{{ loop.index }}" result_rank="{{ loop.index }}">{{ s.title }}</a></span>
           </h4>
-
+          <!-- Snippet preview -->
+          {% if s.thumbnail %}
+          <div class="imageflex">
+            <p class="article-content imageflexcontent" id="abstract-preview-{{ loop.index }}">
+              {{ s.snippet }} <a class="result-link" href="{{ s.link }}" id="abstract-link-{{ loop.index }}" result_rank="{{ loop.index }}">Read More</a>                                             
+            </p>
+            <img src="{{ s.thumbnail }}">
+          </div>
+          {% else %}
+            <p class="article-content imageflexcontent" id="abstract-preview-{{ loop.index }}">
+              {{ s.snippet }} <a class="result-link" href="{{ s.link }}" id="abstract-link-{{ loop.index }}" result_rank="{{ loop.index }}">Read More</a>                                             
+            </p>
+          {% endif %}
+          
               
 
-              <!-- Argument preview -->
-              <p class="article-content" id="abstract-preview-{{ loop.index }}">
-                {{ s.snippet }} <a class="result-link" href="{{ s.link }}" id="abstract-link-{{ loop.index }}" result_rank="{{ loop.index }}">Read More</a>                                             
-              </p>
+          <!-- Full abstract (initially hidden) -->
+          <!-- <a class="result-link" href="{{ s.link }}" id="abstract-link-{{ loop.index }}">{{ s.displayed_link }}</a> -->
 
-              <!-- Full abstract (initially hidden) -->
-              <!-- <a class="result-link" href="{{ s.link }}" id="abstract-link-{{ loop.index }}">{{ s.displayed_link }}</a> -->
+          <!-- Expand/Collapse Control -->
+          <!-- <div class="toggle-abstract" data-index="{{ loop.index }}" data-rank="{{loop.index + 10*(page-1)}}" did = {{s.docid}} style="cursor: pointer; color: #007bff; user-select: none;">
+            <span id="arrow-{{ loop.index }}">▼</span> <span id="toggle-label-{{ loop.index }}">Expand</span>
+          </div> -->
 
-              <!-- Expand/Collapse Control -->
-              <!-- <div class="toggle-abstract" data-index="{{ loop.index }}" data-rank="{{loop.index + 10*(page-1)}}" did = {{s.docid}} style="cursor: pointer; color: #007bff; user-select: none;">
-                <span id="arrow-{{ loop.index }}">▼</span> <span id="toggle-label-{{ loop.index }}">Expand</span>
-              </div> -->
+          <!-- <div style="display: flex; justify-content: flex-end; gap: 0.5em; margin-top: 0.5em;" id="buttons-{{ loop.index }}">
+            <button type="button"
+                    data-type="pro"
+                    class="btn btn-outline-success btn-no-focus"
+                    data-index="{{ loop.index }}"
+                    data-rank="{{loop.index + 10*(page-1)}}"
+                    did = {{s.docid}}
+                    onclick="toggleArgument('{{ s.docid }}', 'pro')"
+                    id="pro-btn-{{ s.docid }}">
+              Pro                                                      <!- - Change button label here - -> 
+            </button>
 
-              <!-- <div style="display: flex; justify-content: flex-end; gap: 0.5em; margin-top: 0.5em;" id="buttons-{{ loop.index }}">
-                <button type="button"
-                        data-type="pro"
-                        class="btn btn-outline-success btn-no-focus"
-                        data-index="{{ loop.index }}"
-                        data-rank="{{loop.index + 10*(page-1)}}"
-                        did = {{s.docid}}
-                        onclick="toggleArgument('{{ s.docid }}', 'pro')"
-                        id="pro-btn-{{ s.docid }}">
-                  Pro                                                      <!- - Change button label here - -> 
-                </button>
-
-                <button type="button"
-                        data-type="con"
-                        class="btn btn-outline-danger btn-no-focus"
-                        data-index="{{ loop.index }}"
-                        data-rank="{{loop.index + 10*(page-1)}}"
-                        did = {{s.docid}}
-                        onclick="toggleArgument('{{ s.docid }}', 'con')"
-                        id="con-btn-{{ s.docid }}">
-                Con                                                        <!- - Change button label here - ->
-                </button>
-              </div> -->
-
-
+            <button type="button"
+                    data-type="con"
+                    class="btn btn-outline-danger btn-no-focus"
+                    data-index="{{ loop.index }}"
+                    data-rank="{{loop.index + 10*(page-1)}}"
+                    did = {{s.docid}}
+                    onclick="toggleArgument('{{ s.docid }}', 'con')"
+                    id="con-btn-{{ s.docid }}">
+            Con                                                        <!- - Change button label here - ->
+            </button>
+          </div> -->
           <!-- Date + DocID -->
           <div class="article-metadata" style="display: flex; justify-content: space-between;" id="metadata-{{ loop.index }}_l">
+            <!-- <h5>{{ s.source }}</h5> -->
             <!-- <small class="text-muted">{{ s.source_title }}</small> -->
             <small class="text-muted">{{ s.displayed_link }}</small>
             <!--<small class="text-muted">{{ s.date }}</small>   // mostly no existing date-->
-          </div>
+          </div>              
         </div>
       </article>
   {% endfor %}
