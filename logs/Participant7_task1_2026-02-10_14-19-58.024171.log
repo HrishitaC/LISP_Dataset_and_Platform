@@ -1,0 +1,19 @@
+{"type": "wentBackToSERP", "timestamp": "2026-02-10T14:19:03.755Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": null, "newQuery": "no"}
+{"type": "wentBackToSERP", "timestamp": "2026-02-10T14:19:42.764Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": null, "newQuery": "no"}
+{"type": "wentBackToSERP", "timestamp": "2026-02-10T14:19:44.622Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": null, "newQuery": "no"}
+{"type": "idSubmitted", "timestamp": "2026-02-10T14:19:46.509Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "uid": "Participant7"}
+{"type": "wentBackToSERP", "timestamp": "2026-02-10T14:19:46.718Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": null, "newQuery": "no"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-10T14:19:47.704Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e"}
+{"type": "querySubmitted", "timestamp": "2026-02-10T14:19:52.784Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": "climate change", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T14:19:54.152Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": "climate change", "docid": "S83ff45f2-A4287f1f1", "rank": "1", "url": "", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T14:19:54.152Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": "climate change", "docid": "Sb3622b08-A51d84a00", "rank": "2", "url": "", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T14:19:54.153Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": "climate change", "docid": "S797b35ea-Abaa629f6", "rank": "3", "url": "", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T14:19:54.153Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": "climate change", "docid": "S797b35ea-Ac49f5afe", "rank": "4", "url": "", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T14:19:54.153Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": "climate change", "docid": "S22b33081-Aef2c4044", "rank": "5", "url": "", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T14:19:54.153Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": "climate change", "docid": "Sfb47c4dc-A94839982", "rank": "6", "url": "", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T14:19:54.153Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": "climate change", "docid": "S29d685d9-A2003667e", "rank": "7", "url": "", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T14:19:54.153Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": "climate change", "docid": "S72b717aa-A5b71474b", "rank": "8", "url": "", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T14:19:54.154Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": "climate change", "docid": "Sc952d8ae-Aa7b89e4b", "rank": "9", "url": "", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T14:19:54.154Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e", "query": "climate change", "docid": "S4733bf42-Aa2caea", "rank": "10", "url": "", "newQuery": "yes"}
+{"type": "ClickedEndTask", "timestamp": "2026-02-10T14:19:56.114Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-02-10T14:19:57.707Z", "sessionID": "eb9da863-4977-4cfe-bed6-c23f5012587e"}

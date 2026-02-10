@@ -1,0 +1,35 @@
+{"type": "wentBackToSERP", "timestamp": "2026-02-10T10:21:20.941Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": null, "newQuery": null}
+{"type": "wentBackToSERP", "timestamp": "2026-02-10T10:23:58.866Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": null, "newQuery": "no"}
+{"type": "wentBackToSERP", "timestamp": "2026-02-10T10:23:59.884Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": null, "newQuery": "no"}
+{"type": "idSubmitted", "timestamp": "2026-02-10T10:24:02.284Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "uid": "Participant22"}
+{"type": "wentBackToSERP", "timestamp": "2026-02-10T10:24:02.548Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": null, "newQuery": "no"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-10T10:24:03.825Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c"}
+{"type": "querySubmitted", "timestamp": "2026-02-10T10:24:14.429Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "rome", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:17.080Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "rome", "docid": "", "rank": "1", "url": "https://en.wikipedia.org/wiki/Rome", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:17.080Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "rome", "docid": "", "rank": "2", "url": "https://www.britannica.com/place/Rome", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:17.080Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "rome", "docid": "", "rank": "3", "url": "https://www.imdb.com/title/tt0384766/", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:17.081Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "rome", "docid": "", "rank": "4", "url": "https://romesnowboards.com/?srsltid=AfmBOornIc472V8dnZkQ0zF0gr7kneClUkQ0nboJN-_lO4TcYCLh0On-", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:17.081Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "rome", "docid": "", "rank": "5", "url": "https://www.rome.net/", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:17.081Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "rome", "docid": "", "rank": "6", "url": "https://www.italia.it/en/lazio/rome", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:17.081Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "rome", "docid": "", "rank": "7", "url": "https://www.tripadvisor.com/Tourism-g187791-Rome_Lazio-Vacations.html", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:17.081Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "rome", "docid": "", "rank": "8", "url": "https://www.italyguides.it/en/lazio/rome", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:17.081Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "rome", "docid": "", "rank": "9", "url": "https://whc.unesco.org/en/list/91/", "newQuery": "yes"}
+{"type": "clickedResult", "timestamp": "2026-02-10T10:24:17.849Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "rome", "url": "https://www.britannica.com/place/Rome", "rank": "2"}
+{"type": "wentBackToSERP", "timestamp": "2026-02-10T10:24:20.934Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "rome", "newQuery": "no"}
+{"type": "clickedResult", "timestamp": "2026-02-10T10:24:21.787Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "rome", "url": "https://www.rome.net/", "rank": "5"}
+{"type": "wentBackToSERP", "timestamp": "2026-02-10T10:24:23.639Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "rome", "newQuery": "no"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-10T10:24:24.771Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c"}
+{"type": "querySubmitted", "timestamp": "2026-02-10T10:24:27.094Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "italy", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:30.350Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "italy", "docid": "", "rank": "1", "url": "https://en.wikipedia.org/wiki/Italy", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:30.351Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "italy", "docid": "", "rank": "2", "url": "https://www.britannica.com/place/Italy", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:30.351Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "italy", "docid": "", "rank": "3", "url": "https://www.italia.it/en", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:30.351Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "italy", "docid": "", "rank": "4", "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/italy_en", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:30.351Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "italy", "docid": "", "rank": "5", "url": "https://www.nationsonline.org/oneworld/italy.htm", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:30.352Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "italy", "docid": "", "rank": "6", "url": "https://www.state.gov/countries-areas/italy", "newQuery": "yes"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-10T10:24:30.352Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "italy", "docid": "", "rank": "7", "url": "https://www.theguardian.com/world/italy", "newQuery": "yes"}
+{"type": "clickedResult", "timestamp": "2026-02-10T10:24:31.057Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "italy", "url": "https://www.italia.it/en", "rank": "3"}
+{"type": "wentBackToSERP", "timestamp": "2026-02-10T10:24:33.321Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "italy", "newQuery": "no"}
+{"type": "clickedResult", "timestamp": "2026-02-10T10:24:34.193Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "italy", "url": "https://www.nationsonline.org/oneworld/italy.htm", "rank": "5"}
+{"type": "wentBackToSERP", "timestamp": "2026-02-10T10:24:35.857Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c", "query": "italy", "newQuery": "no"}
+{"type": "ClickedEndTask", "timestamp": "2026-02-10T10:24:36.582Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-02-10T10:24:37.305Z", "sessionID": "1ee68fee-6388-4596-be1f-31e3fb9cdf8c"}

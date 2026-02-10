@@ -1,0 +1,11 @@
+{"type": "idSubmitted", "timestamp": "2026-02-10T10:04:18.779Z", "sessionID": "19ac41b5-6a30-47b2-a670-43ea47c701f5", "uid": "Participant33"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-10T10:04:20.404Z", "sessionID": "19ac41b5-6a30-47b2-a670-43ea47c701f5"}
+{"type": "querySubmitted", "timestamp": "2026-02-10T10:04:25.956Z", "sessionID": "19ac41b5-6a30-47b2-a670-43ea47c701f5", "query": "coffee cup"}
+{"type": "clickedResult", "timestamp": "2026-02-10T10:04:31.733Z", "sessionID": "19ac41b5-6a30-47b2-a670-43ea47c701f5", "query": "coffee cup", "url": "https://www.stonecreekcoffee.com/collections/drinkware?srsltid=AfmBOorVZirYIPREVv7rRRRnoczxzWc9nxG1PwimEVqxM9qDFPZb5vRP", "rank": "4"}
+{"type": "clickedResult", "timestamp": "2026-02-10T10:04:38.650Z", "sessionID": "19ac41b5-6a30-47b2-a670-43ea47c701f5", "query": "coffee cup", "url": "https://en.wikipedia.org/wiki/Coffee_cup", "rank": "6"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-10T10:04:43.368Z", "sessionID": "19ac41b5-6a30-47b2-a670-43ea47c701f5"}
+{"type": "querySubmitted", "timestamp": "2026-02-10T10:04:48.939Z", "sessionID": "19ac41b5-6a30-47b2-a670-43ea47c701f5", "query": "coffee shops"}
+{"type": "clickedResult", "timestamp": "2026-02-10T10:05:01.457Z", "sessionID": "19ac41b5-6a30-47b2-a670-43ea47c701f5", "query": "coffee shops", "url": "https://www.wkbn.com/news/local-news/howland-news/7brew-drive-thru-coffee-opens-in-trumbull-county/", "rank": "4"}
+{"type": "clickedResult", "timestamp": "2026-02-10T10:05:09.160Z", "sessionID": "19ac41b5-6a30-47b2-a670-43ea47c701f5", "query": "coffee shops", "url": "https://whatshouldwedotodaycolumbus.com/best-coffee-shops-in-ohio/", "rank": "6"}
+{"type": "ClickedEndTask", "timestamp": "2026-02-10T10:05:14.569Z", "sessionID": "19ac41b5-6a30-47b2-a670-43ea47c701f5"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-02-10T10:05:15.385Z", "sessionID": "19ac41b5-6a30-47b2-a670-43ea47c701f5"}
