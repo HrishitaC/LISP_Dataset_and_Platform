@@ -56,7 +56,6 @@
                     localStorage.removeItem('sessionLogs');
                     localStorage.removeItem('sessionID');
                     localStorage.removeItem('submittedQuery');
-                    localStorage.removeItem('newQuery');
                     this.logs = [];
                 } else {
                     console.error('Failed to send logs.');
@@ -104,10 +103,8 @@ if (searchbar) {
     searchbar.addEventListener("submit", (e) => {
         const query = document.getElementById("search-box").value;
         localStorage.setItem("submittedQuery", query);
-        localStorage.setItem("newQuery", "yes");
         studyLogger.logEvent("querySubmitted", { 
             query: query, 
-            newQuery: localStorage.getItem("newQuery") 
         });
     }); 
 }
@@ -115,28 +112,17 @@ if (searchbar) {
 const searchResults = document.querySelectorAll("article.content-section");
 if (searchResults)  {
     const query =  localStorage.getItem('submittedQuery');
-    if (localStorage.getItem("newQuery")){
-            searchResults.forEach(result => {
-                const docid = result.getAttribute("base_ir");
-                const rank = result.getAttribute("result_rank");
-                const url = result.getAttribute("url");  
-                
-                    studyLogger.logEvent("searchResultGenerated", {
-                            query: query,
-                            docid: docid,
-                            rank: rank,
-                            url: url,
-                            newQuery: localStorage.getItem("newQuery")
-                        });
-                });
-            localStorage.removeItem("newQuery");
-        }
-        else{
-            studyLogger.logEvent("wentBackToSERP", {
+    searchResults.forEach(result => {
+        const docid = result.getAttribute("base_ir");
+        const rank = result.getAttribute("result_rank");
+        const url = result.getAttribute("url");  
+        studyLogger.logEvent("searchResultGenerated", {
                 query: query,
-                newQuery: "no"
+                docid: docid,
+                rank: rank,
+                url: url
             });
-        } 
+        });
 }
 
 const resultLinks = document.querySelectorAll("a.result-link");

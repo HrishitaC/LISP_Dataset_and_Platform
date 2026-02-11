@@ -4,11 +4,10 @@ pt.init()
 
 import ir_datasets
 import json
-import pandas as pd
 
 DATASET = 'irds:argsme/2020-04-01/touche-2020-task-1'
-# IDX_PATH = './index/argsme'
-IDX_PATH = './index/kid-friend'
+IDX_PATH = './index/argsme'
+
 
 class Ranker(object):
 
@@ -16,45 +15,10 @@ class Ranker(object):
         self.idx = None
         self.wmodel = wmodel
         self.wmodel = 'BM25'
-        
-        with open(r'datasets/kid-friend/documents.jsonl') as f:
-            lines = f.read().splitlines()
-
-        line_dicts = [json.loads(line) for line in lines]
-        kid_friend_df_final = pd.DataFrame(line_dicts)
-        self.dataset = kid_friend_df_final
-        
-        # self.dataset = ir_datasets.load("argsme/2020-04-01/touche-2020-task-1")
-        # self.docstore = self.dataset.docs_store()
+        self.dataset = ir_datasets.load("argsme/2020-04-01/touche-2020-task-1")
+        self.docstore = self.dataset.docs_store()
 
     def index(self):
-
-        # dataset = self.dataset
-        # def kid_friend_iter():
-        #     for i, row in dataset.iterrows():
-        #         yield {
-        #             "docno": row["docno"],
-        #             "title": row["title"],
-        #             "snippet": row["snippet"],
-        #             "text": row["main_content"]
-        #         }
-
-        # kid_friend_idx_path = "./index/kid-friend"
-        # kid_friend_indexer = pt.IterDictIndexer(
-        #     index_path = str(kid_friend_idx_path),
-        #     meta={ # metadata recorded in index
-        #         "docno": max([len(docno) for docno in dataset["docno"]]),
-        #         "title": max([len(title) for title in dataset["title"]]),
-        #         "snippet": max([len(snippet) for snippet in dataset["snippet"]]),
-        #         "text": max([len(main_content) for main_content in dataset["main_content"]])
-        #     },
-        #     text_attrs = ["text"], # columns indexed
-        #     stemmer="porter",
-        #     stopwords="terrier",
-        # )
-
-        # self.idx = kid_friend_indexer.index(kid_friend_iter())
-
         
         dataset = pt.get_dataset(DATASET)
 
@@ -102,8 +66,7 @@ class Ranker(object):
                 items = wmodel.search(query)['docno'][page*rpp:(page+1)*rpp].tolist()
                 itemlist = []
                 for i in items: 
-                    # item =  self.docstore.get(i)
-                    item =  self.dataset.loc[self.dataset["docno"]==i]
+                    item =  self.docstore.get(i)
                     internal_id = meta_index.getDocument("docno", i)
                     itemlist.append(                                            # Adjust to the data fields that the collection you want to use provides (Corresponding don't have to be adjusted)
                         {
@@ -111,18 +74,10 @@ class Ranker(object):
                             'snippet': item.premises_texts,
                             'source_title' : item.source_title,
                             'date': item.date,
-                            'docid' : item.doc_id
+                            'docid' : item.doc_id,
+                            'link': item.source_url
                         }
                     )
-                    # itemlist.append(                                            # Adjust to the data fields that the collection you want to use provides (Corresponding don't have to be adjusted)
-                    #     {
-                    #         'title': item.title.values[0],
-                    #         'snippet': item.snippet.values[0],
-                    #         # 'source_title' : item.source_title,
-                    #         # 'date': item.date,
-                    #         'docid' : item.docno.values[0]
-                    #     }
-                    # )
                     
                    
         return {
