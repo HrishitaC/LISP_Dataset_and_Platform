@@ -194,8 +194,8 @@ if (pageLinks) {
     }
 }
 
-const arguments = document.querySelectorAll(".toggle-abstract");
-if (arguments) {
+const args = document.querySelectorAll(".toggle-abstract");
+if (args) {
     document.querySelectorAll(".toggle-abstract").forEach(toggle => {
             toggle.addEventListener("click", () => {
                 const index = toggle.getAttribute("data-index");
