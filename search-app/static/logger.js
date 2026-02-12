@@ -56,6 +56,7 @@
                     localStorage.removeItem('sessionLogs');
                     localStorage.removeItem('sessionID');
                     localStorage.removeItem('submittedQuery');
+                    localStorage.removeItem('page');
                     this.logs = [];
                 } else {
                     console.error('Failed to send logs.');
@@ -103,27 +104,53 @@ if (searchbar) {
     searchbar.addEventListener("submit", (e) => {
         const query = document.getElementById("search-box").value;
         localStorage.setItem("submittedQuery", query);
+        localStorage.setItem("page", 1);
         studyLogger.logEvent("querySubmitted", { 
             query: query, 
         });
     }); 
 }
 
+
+// window.addEventListener("pageshow", (e)=>{
+//     if (e.persisted) {
+//             const query =  localStorage.getItem('submittedQuery');
+//             studyLogger.logEvent("clickedBack", {
+//                     query: query,
+//                 });
+//     }
+//     else{
+        
+//     }
+// });
+
 const searchResults = document.querySelectorAll("article.content-section");
-if (searchResults)  {
+if (searchResults){
     const query =  localStorage.getItem('submittedQuery');
     searchResults.forEach(result => {
         const docid = result.getAttribute("base_ir");
         const rank = result.getAttribute("result_rank");
+        const page = localStorage.getItem("page");
         const url = result.getAttribute("url");  
         studyLogger.logEvent("searchResultGenerated", {
                 query: query,
                 docid: docid,
                 rank: rank,
+                page: page,
                 url: url
             });
         });
 }
+
+window.addEventListener("pageshow", (e)=>{
+    if (e.persisted) {
+            const query =  localStorage.getItem('submittedQuery');
+            studyLogger.logEvent("clickedBack", {
+                    query: query,
+                });
+    }
+});
+
 
 const resultLinks = document.querySelectorAll("a.result-link");
 if (resultLinks) {
@@ -132,10 +159,12 @@ if (resultLinks) {
             const url = link.getAttribute("href");
             const query = localStorage.getItem('submittedQuery');
             const rank = link.getAttribute("result_rank");
+            const page = localStorage.getItem("page");
             studyLogger.logEvent("clickedResult", {
                 query: query,
                 url: url,
-                rank: rank
+                rank: rank,
+                page: page,
             });
         });
     });
@@ -147,11 +176,12 @@ if (pageLinks) {
     link.addEventListener("click", (e) => {
         const clickedLabel = link.textContent.trim();
         const currentPage = parseInt(document.querySelector(".page-item.active a")?.textContent || "0", 10);
-
+        const nextPage = getTargetPage(clickedLabel, currentPage);
+        localStorage.setItem("page", nextPage);
         studyLogger.logEvent("pageNavigationClicked", {
         clicked: clickedLabel,
         fromPage: currentPage,
-        toPage: getTargetPage(clickedLabel, currentPage)
+        toPage: nextPage
         });
     });
     });
@@ -192,37 +222,37 @@ if (arguments) {
     });
 }
 
-const pcbuttons = document.querySelectorAll('button[data-type="pro"], button[data-type="con"]');
-if(pcbuttons) {
-    pcbuttons.forEach(btn => {
-        btn.addEventListener("click", () => {
-            const type = btn.getAttribute("data-type")
-            const rank = btn.getAttribute("data-rank");
-            const index = btn.getAttribute("data-index");
-            const full = document.getElementById(`abstract-full-${index}`);
-            const did = btn.getAttribute("did");
-            const currentState = argumentSelections[did];
-            if (currentState === type) {
-                studyLogger.logEvent("StanceClicked", {
-                rank: rank,
-                stance: type,
-                action: "chooseStance",
-                doc: did,
-                doclen: full.textContent.trim().length
-            });
-            } else {
-                studyLogger.logEvent("StanceClicked", {
-                rank: rank,
-                stance: type,
-                action: "removeStance",
-                doc: did,
-                doclen: full.textContent.trim().length
-            });
-            }
+// const pcbuttons = document.querySelectorAll('button[data-type="pro"], button[data-type="con"]');
+// if(pcbuttons) {
+//     pcbuttons.forEach(btn => {
+//         btn.addEventListener("click", () => {
+//             const type = btn.getAttribute("data-type")
+//             const rank = btn.getAttribute("data-rank");
+//             const index = btn.getAttribute("data-index");
+//             const full = document.getElementById(`abstract-full-${index}`);
+//             const did = btn.getAttribute("did");
+//             const currentState = argumentSelections[did];
+//             if (currentState === type) {
+//                 studyLogger.logEvent("StanceClicked", {
+//                 rank: rank,
+//                 stance: type,
+//                 action: "chooseStance",
+//                 doc: did,
+//                 doclen: full.textContent.trim().length
+//             });
+//             } else {
+//                 studyLogger.logEvent("StanceClicked", {
+//                 rank: rank,
+//                 stance: type,
+//                 action: "removeStance",
+//                 doc: did,
+//                 doclen: full.textContent.trim().length
+//             });
+//             }
             
-        })
-    })
-}
+//         })
+//     })
+// }
 
 
 endtask = document.getElementById("end-task-btn")
@@ -256,17 +286,17 @@ if (endno) {
     });
 }
 
-toggleSaved = document.getElementById('toggleSavedLink');
-if (toggleSaved) {
-    toggleSaved.addEventListener("click", () => {
-        studyLogger.logEvent("toggleSavedDocumentsClicked", {
-        clicked: getStatus(document.getElementById('savedTitles'))
-        }); 
-    });
+// toggleSaved = document.getElementById('toggleSavedLink');
+// if (toggleSaved) {
+//     toggleSaved.addEventListener("click", () => {
+//         studyLogger.logEvent("toggleSavedDocumentsClicked", {
+//         clicked: getStatus(document.getElementById('savedTitles'))
+//         }); 
+//     });
 
-    function getStatus(doclist) {
-    if (doclist.style.display == 'none') return "hidden";
-    else return "shown";
-    }
-}
+//     function getStatus(doclist) {
+//     if (doclist.style.display == 'none') return "hidden";
+//     else return "shown";
+//     }
+// }
 
