@@ -139,7 +139,27 @@ if (searchResults){
                 page: page,
                 url: url
             });
+
+        result.addEventListener("mouseenter", (e)=>{
+            studyLogger.logEvent("cursorOverSnippet", {
+                query: query,
+                docid: docid,
+                rank: rank,
+                page: page,
+                url: url
+            });
         });
+
+        result.addEventListener("mouseleave", (e)=>{
+            studyLogger.logEvent("cursorLeftSnippet", {
+                query: query,
+                docid: docid,
+                rank: rank,
+                page: page,
+                url: url
+            });
+        });
+    });
 }
 
 window.addEventListener("pageshow", (e)=>{
