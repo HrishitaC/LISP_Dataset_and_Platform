@@ -79,18 +79,25 @@ if (idform) {
 
 const taskbtn = document.getElementById("task-btn")
 if (taskbtn) {
-    const wrapper = document.getElementById("task-wrapper");
-    const userId = wrapper.getAttribute("data-user-id");
-    const tasknum = wrapper.getAttribute("data-task-num");
-    const topictext = wrapper.getAttribute("data-topic");
     taskbtn.addEventListener("click", () => {
-        studyLogger.logEvent("TaskStarted", {
-            task: tasknum,
-            uid: userId,
-            topic: topictext
-        });
+        studyLogger.logEvent("TaskStarted");
     });
 }
+
+// const taskbtn = document.getElementById("task-btn")
+// if (taskbtn) {
+//     const wrapper = document.getElementById("task-wrapper");
+//     const userId = wrapper.getAttribute("data-user-id");
+//     const tasknum = wrapper.getAttribute("data-task-num");
+//     const topictext = wrapper.getAttribute("data-topic");
+//     taskbtn.addEventListener("click", () => {
+//         studyLogger.logEvent("TaskStarted", {
+//             task: tasknum,
+//             uid: userId,
+//             topic: topictext
+//         });
+//     });
+// }
 
 const searchbox = document.getElementById("search-box")
 if (searchbox) {
@@ -124,29 +131,35 @@ if (searchbar) {
 //     }
 // });
 
+
 const searchResults = document.querySelectorAll("article.content-section");
 if (searchResults){
-    const query =  localStorage.getItem('submittedQuery');
+    // const query =  localStorage.getItem('submittedQuery');
+    // const location =  document.location;
     searchResults.forEach(result => {
+        const query = result.getAttribute("query");
         const docid = result.getAttribute("base_ir");
-        const rank = result.getAttribute("result_rank");
-        const page = localStorage.getItem("page");
-        const url = result.getAttribute("url");  
+        // const rank = result.getAttribute("result_rank");
+        const rank = result.id.split("-")[1];
+        // const page = localStorage.getItem("page");
+        const page = result.getAttribute("page");
+        // const url = result.getAttribute("url");
+        const url = document.getElementById(`abstract-link-${rank}`).getAttribute("href");
         studyLogger.logEvent("searchResultGenerated", {
                 query: query,
                 docid: docid,
                 rank: rank,
                 page: page,
-                url: url
+                url: url,
+                // location:location
             });
 
         result.addEventListener("mouseenter", (e)=>{
-            studyLogger.logEvent("cursorOverSnippet", {
+            studyLogger.logEvent("cursorEnteredSnippet", {
                 query: query,
                 docid: docid,
                 rank: rank,
-                page: page,
-                url: url
+                page: page
             });
         });
 
@@ -155,36 +168,42 @@ if (searchResults){
                 query: query,
                 docid: docid,
                 rank: rank,
-                page: page,
-                url: url
+                page: page
             });
         });
     });
 }
 
-window.addEventListener("pageshow", (e)=>{
-    if (e.persisted) {
-            const query =  localStorage.getItem('submittedQuery');
-            studyLogger.logEvent("clickedBack", {
-                    query: query,
-                });
-    }
-});
+// window.addEventListener("pageshow", (e)=>{
+//     if (e.persisted) {
+//             const query =  localStorage.getItem('submittedQuery');
+//             studyLogger.logEvent("clickedBack", {
+//                     query: query,
+//                 });
+//     }
+// });
 
 
 const resultLinks = document.querySelectorAll("a.result-link");
 if (resultLinks) {
+    // const serpContainer = document.getElementsByClassName("container-info");
     resultLinks.forEach(link => {
         link.addEventListener("click", (e) => {
+            const rank = link.id.split("-")[2];
             const url = link.getAttribute("href");
-            const query = localStorage.getItem('submittedQuery');
-            const rank = link.getAttribute("result_rank");
-            const page = localStorage.getItem("page");
+            // const query = serpContainer.getAttribute("query");
+            // const query = localStorage.getItem('submittedQuery');
+            // const page = localStorage.getItem("page");
+            // const page = serpContainer.getAttribute("page");
+            // const rank = link.getAttribute("result_rank");
+            const snippet = document.getElementById(`result-${rank}`);
+            const query = snippet.getAttribute("query");
+            const page = snippet.getAttribute("page");
             studyLogger.logEvent("clickedResult", {
                 query: query,
-                url: url,
                 rank: rank,
                 page: page,
+                url: url,
             });
         });
     });
@@ -214,33 +233,33 @@ if (pageLinks) {
     }
 }
 
-const args = document.querySelectorAll(".toggle-abstract");
-if (args) {
-    document.querySelectorAll(".toggle-abstract").forEach(toggle => {
-            toggle.addEventListener("click", () => {
-                const index = toggle.getAttribute("data-index");
-                const rank = toggle.getAttribute("data-rank");
-                const full = document.getElementById(`abstract-full-${index}`);
-                const did = toggle.getAttribute("did");
+// const args = document.querySelectorAll(".toggle-abstract");
+// if (args) {
+//     document.querySelectorAll(".toggle-abstract").forEach(toggle => {
+//             toggle.addEventListener("click", () => {
+//                 const index = toggle.getAttribute("data-index");
+//                 const rank = toggle.getAttribute("data-rank");
+//                 const full = document.getElementById(`abstract-full-${index}`);
+//                 const did = toggle.getAttribute("did");
 
-                if (full.classList.contains("d-none")) {
-                    studyLogger.logEvent("toggleArgument", {
-                        rank: rank,
-                        doc: did,
-                        action: "expand",
-                        doclen: full.textContent.trim().length
-                    }); 
-                } else {
-                    studyLogger.logEvent("toggleArgument", {
-                        rank: rank,
-                        doc: did,
-                        action: "reduce",
-                        doclen: full.textContent.trim().length
-                    }); 
-                }
-            });
-    });
-}
+//                 if (full.classList.contains("d-none")) {
+//                     studyLogger.logEvent("toggleArgument", {
+//                         rank: rank,
+//                         doc: did,
+//                         action: "expand",
+//                         doclen: full.textContent.trim().length
+//                     }); 
+//                 } else {
+//                     studyLogger.logEvent("toggleArgument", {
+//                         rank: rank,
+//                         doc: did,
+//                         action: "reduce",
+//                         doclen: full.textContent.trim().length
+//                     }); 
+//                 }
+//             });
+//     });
+// }
 
 // const pcbuttons = document.querySelectorAll('button[data-type="pro"], button[data-type="con"]');
 // if(pcbuttons) {

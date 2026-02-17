@@ -75,7 +75,8 @@ class Ranker(object):
                             'source_title' : item.source_title,
                             'date': item.date,
                             'docid' : item.doc_id,
-                            'link': item.source_url
+                            'link': item.source_url,
+                            'thumbnail': item.author_image_url
                         }
                     )
                     

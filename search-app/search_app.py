@@ -59,8 +59,23 @@ def base():
 
 @app.route("/")
 def home():
+    query = "vaccine"
+    url = "/ranking?query="
+    url_affix = "&rpp="
+    maxres = '100' # max 10 pages with max 10 results each
+    rpp = 10 # results per page; may be changed later
+    query = sanitize_query(query)
+    end_query = db_url + url + query + url_affix + maxres
+    
+    try:
+        response = requests.get(end_query)
+    except requests.ConnectionError:
+        return "Connection Error" 
+
+    search_results = response.json()
+
     if 'user_id' not in session:
-        return redirect(url_for('welcome'))
+        return redirect(url_for('start_page'))
     form = SearchForm()
     reminder = USER_TOPICS.get(session.get('user_id'), {}).get(str(session.get('task_number'))+'_full')  # Change reminder here if needed (Reminder: shown in sidebar)
     return render_template("home.html", form=form, show_search=True, reminder=reminder)
@@ -109,7 +124,6 @@ def result():
     query = sanitize_query(query)
     end_query = db_url + url + query + url_affix + maxres
     
-
     try:
         response = requests.get(end_query)
     except requests.ConnectionError:
