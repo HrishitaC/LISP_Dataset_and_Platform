@@ -134,6 +134,7 @@ if (searchbar) {
 
 const searchResults = document.querySelectorAll("article.content-section");
 if (searchResults){
+    const searchAppLocation = window.location.href;
     // const query =  localStorage.getItem('submittedQuery');
     // const location =  document.location;
     searchResults.forEach(result => {
@@ -143,6 +144,11 @@ if (searchResults){
         const rank = result.id.split("-")[1];
         // const page = localStorage.getItem("page");
         const page = result.getAttribute("page");
+        if (page===1){
+        // if (searchAppLocation.includes("?query")===false){
+            searchAppLocation = searchAppLocation + "?query="+query+"&page=1"
+        }
+
         // const url = result.getAttribute("url");
         const url = document.getElementById(`abstract-link-${rank}`).getAttribute("href");
         studyLogger.logEvent("searchResultGenerated", {
@@ -151,6 +157,7 @@ if (searchResults){
                 rank: rank,
                 page: page,
                 url: url,
+                windowLocation: searchAppLocation
                 // location:location
             });
 
@@ -232,6 +239,11 @@ if (pageLinks) {
     return isNaN(num) ? null : num;
     }
 }
+
+const homeButton = document.getElementById("app-home");
+homeButton.addEventListener("click", (e)=>{
+    studyLogger.logEvent("wentBackHome");
+});
 
 // const args = document.querySelectorAll(".toggle-abstract");
 // if (args) {
