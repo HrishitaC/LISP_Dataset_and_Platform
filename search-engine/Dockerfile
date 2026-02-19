@@ -8,12 +8,12 @@ RUN apt-get update && \
     apt-get install -y python3-pip && \
     apt-get install -y libpcre3 libpcre3-dev && \
     apt-get install zip unzip && \
-    python3 -m pip install -r requirements.txt && \
-    mkdir -p /root/.ir_datasets/downloads 
+    python3 -m pip install -r requirements.txt
+    # mkdir -p /root/.ir_datasets/downloads 
 
 COPY . .
 
-RUN unzip datasets/argsme.zip -d /root/.ir_datasets/
+# RUN unzip datasets/argsme.zip -d /root/.ir_datasets/
 
 EXPOSE 7002
 
