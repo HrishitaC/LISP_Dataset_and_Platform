@@ -59,6 +59,8 @@ def base():
 
 @app.route("/")
 def home():
+
+    ## uncomment when using datasets from ir_datasets
     # query = "vaccine"
     # url = "/ranking?query="
     # url_affix = "&rpp="

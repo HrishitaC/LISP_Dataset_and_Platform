@@ -10,12 +10,15 @@ import json
 # DATASET = 'irds:argsme/2020-04-01/touche-2020-task-1'
 # IDX_PATH = './index/argsme'
 
-CORPUS = Path.cwd() / "datasets" / "kid-friend-en" / "documents.jsonl"
-IDX_PATH = Path.cwd() / "index" / "kid-friend-en"
+# CORPUS = r'datasets/kid-friend-en/docs.jsonl'
+# IDX_PATH = Path.cwd() / "index" / "kid-friend-en"
 
-def read_corpus(corpus_path):
+CORPUS = r'datasets/commonlit/docs.jsonl'
+IDX_PATH = Path.cwd() / "index" / "commonlit"
+
+def read_corpus():
     lines = []
-    with open(str(corpus_path)) as f:
+    with open(str(CORPUS)) as f:
         lines = f.read().splitlines()
 
     line_dicts = [json.loads(line) for line in lines]
@@ -30,7 +33,7 @@ class Ranker(object):
         self.idx = None
         self.wmodel = wmodel
         self.wmodel = 'BM25'
-        self.dataset = read_corpus(CORPUS)
+        self.dataset = read_corpus()
         # self.dataset = ir_datasets.load("argsme/2020-04-01/touche-2020-task-1")
         # self.docstore = self.dataset.docs_store()
 
@@ -62,29 +65,59 @@ class Ranker(object):
         # self.idx = indexer.index(filter_dataset())
 
         ## reading corpus
-        df_final = read_corpus(CORPUS)
+        df_final = read_corpus()
         self.dataset = df_final
 
         ## creating corpus iterator
+        ### kid-friend-en
+        # def df_iter():
+        #     for i, row in df_final.iterrows():
+        #         yield {
+        #             "docno": row["docno"],
+        #             "title": row["title"],
+        #             "snippet": row["snippet"],
+        #             "text": row["main_content"]
+        #         }
+
+        ### commonlit
         def df_iter():
             for i, row in df_final.iterrows():
                 yield {
                     "docno": row["docno"],
                     "title": row["title"],
                     "snippet": row["snippet"],
-                    "text": row["main_content"]
+                    "author": row["author"],
+                    "url": row["url"],
+                    "source": row["source"]
                 }
 
         ## creating indexer
+        ### kid-friend-en
+        # indexer = pt.IterDictIndexer(
+        #     index_path = str(IDX_PATH),
+        #     meta={ # metadata recorded in index
+        #         "docno": max([len(docno) for docno in df_final["docno"]]),
+        #         "title": max([len(title) for title in df_final["title"]]),
+        #         "snippet": max([len(snippet) for snippet in df_final["snippet"]]),
+        #         "text": max([len(main_content) for main_content in df_final["main_content"]])
+        #     },
+        #     text_attrs = ["text"], # columns indexed
+        #     stemmer="porter",
+        #     stopwords="terrier",
+        # )
+
+        ### commonlit
         indexer = pt.IterDictIndexer(
             index_path = str(IDX_PATH),
             meta={ # metadata recorded in index
                 "docno": max([len(docno) for docno in df_final["docno"]]),
                 "title": max([len(title) for title in df_final["title"]]),
                 "snippet": max([len(snippet) for snippet in df_final["snippet"]]),
-                "text": max([len(main_content) for main_content in df_final["main_content"]])
+                "author": max([len(author) for author in df_final["author"]]),
+                "url": max([len(url) for url in df_final["url"]]),
+                "source": max([len(source) for source in df_final["source"]])
             },
-            text_attrs = ["text"], # columns indexed
+            text_attrs = ["snippet"], # columns indexed
             stemmer="porter",
             stopwords="terrier",
         )
@@ -126,15 +159,29 @@ class Ranker(object):
                 #             'thumbnail': item.author_image_url
                 #         }
                 #     )
-                    
+
+                ### kid-friend-en
+                # for i in items: 
+                #     item =  self.dataset.loc[self.dataset["docno"]==i]
+                #     itemlist.append(                                            # Adjust to the data fields that the collection you want to use provides (Corresponding don't have to be adjusted)
+                #         {
+                #             'title': item["title"].values[0],
+                #             'snippet': item["snippet"].values[0],
+                #             'source_title' : item["title"].values[0],
+                #             'docid' : item["docno"].values[0]
+                #         }
+                #     )     
+
+                ### commonlit
                 for i in items: 
                     item =  self.dataset.loc[self.dataset["docno"]==i]
                     itemlist.append(                                            # Adjust to the data fields that the collection you want to use provides (Corresponding don't have to be adjusted)
                         {
                             'title': item["title"].values[0],
                             'snippet': item["snippet"].values[0],
-                            'source_title' : item["title"].values[0],
-                            'docid' : item["docno"].values[0]
+                            'source_title' : item["source"].values[0],
+                            'docid' : item["docno"].values[0],
+                            'link': item["url"].values[0],
                         }
                     )                    
                    
