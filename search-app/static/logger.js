@@ -55,8 +55,6 @@
                     console.log('Logs successfully sent to server.');
                     localStorage.removeItem('sessionLogs');
                     localStorage.removeItem('sessionID');
-                    localStorage.removeItem('submittedQuery');
-                    localStorage.removeItem('page');
                     this.logs = [];
                 } else {
                     console.error('Failed to send logs.');
@@ -110,8 +108,6 @@ const searchbar = document.getElementById("search-bar")
 if (searchbar) {
     searchbar.addEventListener("submit", (e) => {
         const query = document.getElementById("search-box").value;
-        localStorage.setItem("submittedQuery", query);
-        localStorage.setItem("page", 1);
         studyLogger.logEvent("querySubmitted", { 
             query: query, 
         });
@@ -134,19 +130,19 @@ if (searchbar) {
 
 const searchResults = document.querySelectorAll("article.content-section");
 if (searchResults){
-    const searchAppLocation = window.location.href;
     // const query =  localStorage.getItem('submittedQuery');
     // const location =  document.location;
     searchResults.forEach(result => {
+        var searchAppLocation = window.location.href;
         const query = result.getAttribute("query");
         const docid = result.getAttribute("base_ir");
         // const rank = result.getAttribute("result_rank");
         const rank = result.id.split("-")[1];
         // const page = localStorage.getItem("page");
         const page = result.getAttribute("page");
-        if (page===1){
+        if (page==="1"){
         // if (searchAppLocation.includes("?query")===false){
-            searchAppLocation = searchAppLocation + "?query="+query+"&page=1"
+            searchAppLocation = searchAppLocation + "?query="+query+"&page=1";
         }
 
         // const url = result.getAttribute("url");
@@ -210,7 +206,7 @@ if (resultLinks) {
                 query: query,
                 rank: rank,
                 page: page,
-                url: url,
+                url: url
             });
         });
     });
@@ -223,7 +219,6 @@ if (pageLinks) {
         const clickedLabel = link.textContent.trim();
         const currentPage = parseInt(document.querySelector(".page-item.active a")?.textContent || "0", 10);
         const nextPage = getTargetPage(clickedLabel, currentPage);
-        localStorage.setItem("page", nextPage);
         studyLogger.logEvent("pageNavigationClicked", {
         clicked: clickedLabel,
         fromPage: currentPage,
