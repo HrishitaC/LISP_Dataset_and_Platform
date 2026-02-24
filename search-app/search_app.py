@@ -80,7 +80,7 @@ def home():
         return redirect(url_for('start_page'))
     form = SearchForm()
     reminder = USER_TOPICS.get(session.get('user_id'), {}).get(str(session.get('task_number'))+'_full')  # Change reminder here if needed (Reminder: shown in sidebar)
-    return render_template("home.html", form=form, show_search=True, reminder=reminder, title="SOL Search")
+    return render_template("home.html", form=form, show_search=True, reminder=reminder)
 
 @app.route('/welcome', methods=['GET', 'POST'])
 def welcome():

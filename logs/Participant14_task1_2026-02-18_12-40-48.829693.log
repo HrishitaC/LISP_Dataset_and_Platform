@@ -1,4 +1,0 @@
-{"type": "TaskStarted", "timestamp": "2026-02-18T12:40:42.969Z", "sessionID": "18564546-f166-4672-b926-95b35641a86d"}
-{"type": "idSubmitted", "timestamp": "2026-02-18T12:40:42.972Z", "sessionID": "18564546-f166-4672-b926-95b35641a86d", "uid": "Participant14"}
-{"type": "ClickedEndTask", "timestamp": "2026-02-18T12:40:47.704Z", "sessionID": "18564546-f166-4672-b926-95b35641a86d"}
-{"type": "TaskEndConfirmed", "timestamp": "2026-02-18T12:40:48.752Z", "sessionID": "18564546-f166-4672-b926-95b35641a86d"}

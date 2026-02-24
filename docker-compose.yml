@@ -7,8 +7,8 @@ services:
     ports:
       - 7001:7001
     volumes:
-      - ./search-app/templates/:/app/templates/   # ← HTML-Dateien übertragen
-      - ./search-app/static/:/app/static/   # ← Hier den static-Ordner mounten
+      - ./search-app/templates/:/app/templates/   # ← Transferring HTML files
+      - ./search-app/static/:/app/static/   # ← Mount the static folder here
       - ./search-app/data/:/data/
       - ./logs:/logs/
     networks:

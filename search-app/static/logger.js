@@ -82,6 +82,8 @@ if (taskbtn) {
     });
 }
 
+
+
 // const taskbtn = document.getElementById("task-btn")
 // if (taskbtn) {
 //     const wrapper = document.getElementById("task-wrapper");
@@ -127,16 +129,23 @@ if (searchbar) {
 //     }
 // });
 
+const goBackBtn = document.getElementById("go-back-btn");
+if (goBackBtn){
+    goBackBtn.addEventListener("click", ()=>{
+        localStorage.setItem('wentBack', 1);
+    });
+}
 
 const searchResults = document.querySelectorAll("article.content-section");
-if (searchResults){
-    // const query =  localStorage.getItem('submittedQuery');
-    // const location =  document.location;
+if (localStorage.getItem('wentBack')){
+    studyLogger.logEvent("wentBack");
+    localStorage.removeItem('wentBack');
+}
+else if (searchResults){
     searchResults.forEach(result => {
         var searchAppLocation = window.location.href;
         const query = result.getAttribute("query");
         const docid = result.getAttribute("base_ir");
-        // const rank = result.getAttribute("result_rank");
         const rank = result.id.split("-")[1];
         // const page = localStorage.getItem("page");
         const page = result.getAttribute("page");
@@ -177,28 +186,15 @@ if (searchResults){
     });
 }
 
-// window.addEventListener("pageshow", (e)=>{
-//     if (e.persisted) {
-//             const query =  localStorage.getItem('submittedQuery');
-//             studyLogger.logEvent("clickedBack", {
-//                     query: query,
-//                 });
-//     }
-// });
-
 
 const resultLinks = document.querySelectorAll("a.result-link");
 if (resultLinks) {
     // const serpContainer = document.getElementsByClassName("container-info");
     resultLinks.forEach(link => {
         link.addEventListener("click", (e) => {
+            localStorage.setItem('wentBack', 1);
             const rank = link.id.split("-")[2];
             const url = link.getAttribute("href");
-            // const query = serpContainer.getAttribute("query");
-            // const query = localStorage.getItem('submittedQuery');
-            // const page = localStorage.getItem("page");
-            // const page = serpContainer.getAttribute("page");
-            // const rank = link.getAttribute("result_rank");
             const snippet = document.getElementById(`result-${rank}`);
             const query = snippet.getAttribute("query");
             const page = snippet.getAttribute("page");
