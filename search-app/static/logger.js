@@ -55,6 +55,7 @@
                     console.log('Logs successfully sent to server.');
                     localStorage.removeItem('sessionLogs');
                     localStorage.removeItem('sessionID');
+                    localStorage.removeItem('wentBack');
                     this.logs = [];
                 } else {
                     console.error('Failed to send logs.');
@@ -81,8 +82,6 @@ if (taskbtn) {
         studyLogger.logEvent("TaskStarted");
     });
 }
-
-
 
 // const taskbtn = document.getElementById("task-btn")
 // if (taskbtn) {
@@ -116,19 +115,6 @@ if (searchbar) {
     }); 
 }
 
-
-// window.addEventListener("pageshow", (e)=>{
-//     if (e.persisted) {
-//             const query =  localStorage.getItem('submittedQuery');
-//             studyLogger.logEvent("clickedBack", {
-//                     query: query,
-//                 });
-//     }
-//     else{
-        
-//     }
-// });
-
 const goBackBtn = document.getElementById("go-back-btn");
 if (goBackBtn){
     goBackBtn.addEventListener("click", ()=>{
@@ -138,7 +124,13 @@ if (goBackBtn){
 
 const searchResults = document.querySelectorAll("article.content-section");
 if (localStorage.getItem('wentBack')){
-    studyLogger.logEvent("wentBack");
+    const firstResult = document.querySelector("article.content-section");
+    const query = firstResult.getAttribute("query");
+    const page = firstResult.getAttribute("page");
+    studyLogger.logEvent("wentBack", {
+        "query": query,
+        "page": page
+    });
     localStorage.removeItem('wentBack');
 }
 else if (searchResults){
@@ -147,22 +139,20 @@ else if (searchResults){
         const query = result.getAttribute("query");
         const docid = result.getAttribute("base_ir");
         const rank = result.id.split("-")[1];
-        // const page = localStorage.getItem("page");
         const page = result.getAttribute("page");
         if (page==="1"){
         // if (searchAppLocation.includes("?query")===false){
             searchAppLocation = searchAppLocation + "?query="+query+"&page=1";
         }
-
-        // const url = result.getAttribute("url");
         const url = document.getElementById(`abstract-link-${rank}`).getAttribute("href");
+        
         studyLogger.logEvent("searchResultGenerated", {
                 query: query,
                 docid: docid,
                 rank: rank,
                 page: page,
                 url: url,
-                windowLocation: searchAppLocation
+                windowLocation: searchAppLocation,
                 // location:location
             });
 
