@@ -1,0 +1,73 @@
+{"type": "TaskStarted", "timestamp": "2026-02-25T10:19:00.294Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f"}
+{"type": "idSubmitted", "timestamp": "2026-02-25T10:19:00.297Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "uid": "Participant15"}
+{"type": "queryBoxFocused", "timestamp": "2026-02-25T10:19:01.909Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f"}
+{"type": "querySubmitted", "timestamp": "2026-02-25T10:19:07.024Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-25T10:19:08.380Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "2938", "rank": "1", "page": "1", "url": "https://www.africanstorybook.org/#", "windowLocation": "http://localhost:7001/result?query=ducks&page=1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:08.381Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:08.381Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:08.382Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:08.382Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:08.382Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:08.383Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:08.386Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:08.387Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:08.388Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:09.103Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "5607", "rank": "2", "page": "1"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:09.702Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "5607", "rank": "2", "page": "1"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:09.702Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "5499", "rank": "4", "page": "1"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:09.991Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "5499", "rank": "4", "page": "1"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:10.009Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "5642", "rank": "5", "page": "1"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:10.043Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "5642", "rank": "5", "page": "1"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:10.044Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "4817", "rank": "6", "page": "1"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:10.442Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "4817", "rank": "6", "page": "1"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:10.442Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "6202", "rank": "8", "page": "1"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:10.652Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "6202", "rank": "8", "page": "1"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:10.685Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "5714", "rank": "9", "page": "1"}
+{"type": "clickedResult", "timestamp": "2026-02-25T10:19:11.582Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "rank": "9", "page": "1", "url": "http://www.gutenberg.org/files/24940/24940-h/24940-h.htm#Page_69", "searchAppLocation": "http://www.gutenberg.org/files/24940/24940-h/24940-h.htm#Page_69"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:12.046Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "5714", "rank": "9", "page": "1"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-25T10:19:14.279Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "2938", "rank": "1", "page": "1", "url": "https://www.africanstorybook.org/#", "windowLocation": "http://localhost:7001/result?query=ducks&page=1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:14.280Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:14.280Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:14.280Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:14.280Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:14.281Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:14.281Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:14.281Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:14.281Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:14.282Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:14.385Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "4970", "rank": "7", "page": "1"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:14.468Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "4970", "rank": "7", "page": "1"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:14.502Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "6202", "rank": "8", "page": "1"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:15.068Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "6202", "rank": "8", "page": "1"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:15.086Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "5714", "rank": "9", "page": "1"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:15.152Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "5714", "rank": "9", "page": "1"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:15.152Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "5589", "rank": "10", "page": "1"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:15.235Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "5589", "rank": "10", "page": "1"}
+{"type": "pageNavigationClicked", "timestamp": "2026-02-25T10:19:15.920Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "clicked": "4", "fromPage": 1, "toPage": 4}
+{"type": "searchResultGenerated", "timestamp": "2026-02-25T10:19:16.297Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "7041", "rank": "1", "page": "4", "url": "http://www.gutenberg.org/files/25359/25359-h/25359-h.htm#Page_304", "windowLocation": "http://localhost:7001/result?query=ducks&page=4"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:16.297Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "4"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:16.768Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "3213", "rank": "2", "page": "4"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:16.836Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "3213", "rank": "2", "page": "4"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:16.852Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "7041", "rank": "1", "page": "4"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:17.070Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "7041", "rank": "1", "page": "4"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:17.102Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "3213", "rank": "2", "page": "4"}
+{"type": "clickedResult", "timestamp": "2026-02-25T10:19:17.515Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "rank": "2", "page": "4", "url": "https://freekidsbooks.org/wp-content/uploads/2020/06/the-dance-of-the-flamingo-Pratham-FKB.pdf", "searchAppLocation": "https://freekidsbooks.org/wp-content/uploads/2020/06/the-dance-of-the-flamingo-Pratham-FKB.pdf"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:21.127Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "3213", "rank": "2", "page": "4"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:25.968Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "7041", "rank": "1", "page": "4"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:26.168Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "7041", "rank": "1", "page": "4"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:26.235Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "3213", "rank": "2", "page": "4"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:26.298Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "3213", "rank": "2", "page": "4"}
+{"type": "cursorEnteredSnippet", "timestamp": "2026-02-25T10:19:26.334Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "7041", "rank": "1", "page": "4"}
+{"type": "cursorLeftSnippet", "timestamp": "2026-02-25T10:19:26.701Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "7041", "rank": "1", "page": "4"}
+{"type": "searchResultGenerated", "timestamp": "2026-02-25T10:19:28.069Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "docid": "2938", "rank": "1", "page": "1", "url": "https://www.africanstorybook.org/#", "windowLocation": "http://localhost:7001/result?query=ducks&page=1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:28.070Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:28.071Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:28.071Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:28.072Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:28.073Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:28.073Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:28.074Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:28.074Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "wentBack", "timestamp": "2026-02-25T10:19:28.075Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f", "query": "ducks", "page": "1"}
+{"type": "ClickedEndTask", "timestamp": "2026-02-25T10:19:30.482Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-02-25T10:19:31.870Z", "sessionID": "d4eb1504-b804-46d8-80a0-6dfc0502d34f"}

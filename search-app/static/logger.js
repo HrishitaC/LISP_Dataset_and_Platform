@@ -10,6 +10,34 @@
         });
     }
 
+    // const historyTracker = {
+    //     history: [],
+        
+    //     init() {
+    //         const storedHistory = localStorage.getItem('broswerHistory');
+    //         this.history = storedHistory ? JSON.parse(storedHistory) : [];
+    //     },
+
+    //     addPage(url) {
+    //         this.history.push(url);
+    //         localStorage.setItem('broswerHistory', JSON.stringify(this.history));
+    //     },
+
+    //     getLastPageVisited() {
+    //         if (this.history.length === 0){
+    //             return null
+    //         }
+    //         else {
+    //             return this.history[this.history.length - 2];
+    //         }
+    //     },
+
+    //     removePages(){
+    //         this.history.splice(-3,3);
+    //         localStorage.setItem('browserHistory', JSON.stringify(this.history));
+    //     }
+    // }
+
     const logger = {
         sessionID: null,
         logs: [],
@@ -65,7 +93,9 @@
     };
 
     logger.init();
+    // historyTracker.init();
     window.studyLogger = logger;
+    // window.browserHistoryTracker = historyTracker;
 })();
 
 const idform = document.getElementById("enter-id-form");
@@ -134,29 +164,50 @@ if (localStorage.getItem('wentBack')){
     localStorage.removeItem('wentBack');
 }
 else if (searchResults){
-    searchResults.forEach(result => {
-        var searchAppLocation = window.location.href;
+
+    // const firstResult = document.querySelector("article.content-section");
+    // const query = firstResult.getAttribute("query");
+    // const page = firstResult.getAttribute("page");
+    // const searchAppLocation = page==="1" ? window.location.href + "?query="+query+"&page=1" : window.location.href;
+    // window.browserHistoryTracker.addPage(searchAppLocation);
+    // const lastPageVisited = window.browserHistoryTracker.getLastPageVisited();
+    
+    // if(lastPageVisited == searchAppLocation){
+    //     studyLogger.logEvent("wentBack", {
+    //         "query": query,
+    //         "page": page
+    //     });
+    //     window.browserHistoryTracker.removePages();
+    //     window.browserHistoryTracker.addPage(searchAppLocation);        
+    // }
+    // else{
+        searchResults.forEach(result => {
+            const query = result.getAttribute("query");
+            const docid = result.getAttribute("base_ir");
+            const rank = result.id.split("-")[1];
+            const page = result.getAttribute("page");
+            const url = document.getElementById(`abstract-link-${rank}`).getAttribute("href");
+            const searchAppLocation = page==="1" ? window.location.href + "?query="+query+"&page=1" : window.location.href;
+            
+            studyLogger.logEvent("searchResultGenerated", {
+                    query: query,
+                    docid: docid,
+                    rank: rank,
+                    page: page,
+                    url: url,
+                    windowLocation: searchAppLocation,
+                });
+        });
+    // }
+}
+
+if(searchResults){
+    searchResults.forEach(result=>{
         const query = result.getAttribute("query");
         const docid = result.getAttribute("base_ir");
         const rank = result.id.split("-")[1];
         const page = result.getAttribute("page");
-        if (page==="1"){
-        // if (searchAppLocation.includes("?query")===false){
-            searchAppLocation = searchAppLocation + "?query="+query+"&page=1";
-        }
-        const url = document.getElementById(`abstract-link-${rank}`).getAttribute("href");
-        
-        studyLogger.logEvent("searchResultGenerated", {
-                query: query,
-                docid: docid,
-                rank: rank,
-                page: page,
-                url: url,
-                windowLocation: searchAppLocation,
-                // location:location
-            });
-
-        result.addEventListener("mouseenter", (e)=>{
+        result.addEventListener("mouseenter", ()=>{
             studyLogger.logEvent("cursorEnteredSnippet", {
                 query: query,
                 docid: docid,
@@ -165,7 +216,7 @@ else if (searchResults){
             });
         });
 
-        result.addEventListener("mouseleave", (e)=>{
+        result.addEventListener("mouseleave", ()=>{
             studyLogger.logEvent("cursorLeftSnippet", {
                 query: query,
                 docid: docid,
@@ -188,12 +239,16 @@ if (resultLinks) {
             const snippet = document.getElementById(`result-${rank}`);
             const query = snippet.getAttribute("query");
             const page = snippet.getAttribute("page");
+            
             studyLogger.logEvent("clickedResult", {
                 query: query,
                 rank: rank,
                 page: page,
-                url: url
+                url: url,
+                searchAppLocation: url
             });
+
+            // window.browserHistoryTracker.addPage(url);
         });
     });
 }
@@ -222,7 +277,7 @@ if (pageLinks) {
 }
 
 const homeButton = document.getElementById("app-home");
-homeButton.addEventListener("click", (e)=>{
+homeButton.addEventListener("click", ()=>{
     studyLogger.logEvent("wentBackHome");
 });
 
