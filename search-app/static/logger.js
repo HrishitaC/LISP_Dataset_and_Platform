@@ -82,10 +82,10 @@
             else return;
         },
 
-        removeHistory(){
-            this.historyTracker.splice(this.historyTracker.length-2, 2);
-            localStorage.setItem('browserHistory', JSON.stringify(this.historyTracker));
-        },
+        // removeHistory(){
+        //     this.historyTracker.splice(this.historyTracker.length-2, 2);
+        //     localStorage.setItem('browserHistory', JSON.stringify(this.historyTracker));
+        // },
 
         getHistory() {
             return JSON.stringify(this.historyTracker);
@@ -190,7 +190,7 @@ if(searchResults){
             "query": query,
             "page": page
         });
-        studyLogger.removeHistory();
+        // studyLogger.removeHistory();
         studyLogger.addHistory(searchAppLocation);
     }
     else{
