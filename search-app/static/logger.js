@@ -41,6 +41,7 @@
     const logger = {
         sessionID: null,
         logs: [],
+        historyTracker: [],
 
         init() {
             const uuid = (typeof crypto !== 'undefined' && crypto.randomUUID)
@@ -51,7 +52,9 @@
             localStorage.setItem('sessionID', this.sessionID);
 
             const storedLogs = localStorage.getItem('sessionLogs');
+            const browserHistory = localStorage.getItem('browserHistory');
             this.logs = storedLogs ? JSON.parse(storedLogs) : [];
+            this.historyTracker = browserHistory ? JSON.parse(browserHistory) : [];
         },
         
         logEvent(type, details = {}) {
@@ -64,6 +67,28 @@
             console.log("[LOG]", event);
             this.logs.push(event);
             localStorage.setItem('sessionLogs', JSON.stringify(this.logs));
+        },
+
+        addHistory(url) {
+            this.historyTracker.push(url);
+            localStorage.setItem('browserHistory', JSON.stringify(this.historyTracker));
+        },
+
+        checkHistory(url) {
+            if (this.historyTracker.length <= 1) return;
+            
+            prevPage = this.historyTracker[this.historyTracker.length - 2];
+            if (url==prevPage) return 1;
+            else return;
+        },
+
+        removeHistory(){
+            this.historyTracker.splice(this.historyTracker.length-2, 2);
+            localStorage.setItem('browserHistory', JSON.stringify(this.historyTracker));
+        },
+
+        getHistory() {
+            return JSON.stringify(this.historyTracker);
         },
 
         sendLogs() {
@@ -84,7 +109,9 @@
                     localStorage.removeItem('sessionLogs');
                     localStorage.removeItem('sessionID');
                     localStorage.removeItem('wentBack');
+                    localStorage.removeItem('browserHistory');
                     this.logs = [];
+                    this.historyTracker = [];
                 } else {
                     console.error('Failed to send logs.');
                 }
@@ -153,34 +180,21 @@ if (goBackBtn){
 }
 
 const searchResults = document.querySelectorAll("article.content-section");
-if (localStorage.getItem('wentBack')){
+if(searchResults){
     const firstResult = document.querySelector("article.content-section");
     const query = firstResult.getAttribute("query");
-    const page = firstResult.getAttribute("page");
-    studyLogger.logEvent("wentBack", {
-        "query": query,
-        "page": page
-    });
-    localStorage.removeItem('wentBack');
-}
-else if (searchResults){
-
-    // const firstResult = document.querySelector("article.content-section");
-    // const query = firstResult.getAttribute("query");
-    // const page = firstResult.getAttribute("page");
-    // const searchAppLocation = page==="1" ? window.location.href + "?query="+query+"&page=1" : window.location.href;
-    // window.browserHistoryTracker.addPage(searchAppLocation);
-    // const lastPageVisited = window.browserHistoryTracker.getLastPageVisited();
-    
-    // if(lastPageVisited == searchAppLocation){
-    //     studyLogger.logEvent("wentBack", {
-    //         "query": query,
-    //         "page": page
-    //     });
-    //     window.browserHistoryTracker.removePages();
-    //     window.browserHistoryTracker.addPage(searchAppLocation);        
-    // }
-    // else{
+    const  page = firstResult.getAttribute("page");
+    const searchAppLocation = page=="1" ? window.location.href + "?query="+query+"&page=1" : window.location.href;
+    if(studyLogger.checkHistory(searchAppLocation)){
+        studyLogger.logEvent("wentBack", {
+            "query": query,
+            "page": page
+        });
+        studyLogger.removeHistory();
+        studyLogger.addHistory(searchAppLocation);
+    }
+    else{
+        studyLogger.addHistory(searchAppLocation);
         searchResults.forEach(result => {
             const query = result.getAttribute("query");
             const docid = result.getAttribute("base_ir");
@@ -188,6 +202,7 @@ else if (searchResults){
             const page = result.getAttribute("page");
             const url = document.getElementById(`abstract-link-${rank}`).getAttribute("href");
             const searchAppLocation = page==="1" ? window.location.href + "?query="+query+"&page=1" : window.location.href;
+            // if (rank=="1") studyLogger.addHistory(searchAppLocation);
             
             studyLogger.logEvent("searchResultGenerated", {
                     query: query,
@@ -196,10 +211,57 @@ else if (searchResults){
                     page: page,
                     url: url,
                     windowLocation: searchAppLocation,
+                    history: studyLogger.getHistory(),
                 });
         });
-    // }
+    }
 }
+// if (localStorage.getItem('wentBack')){
+//     const firstResult = document.querySelector("article.content-section");
+//     const query = firstResult.getAttribute("query");
+//     const page = firstResult.getAttribute("page");
+//     studyLogger.logEvent("wentBack", {
+//         "query": query,
+//         "page": page
+//     });
+//     localStorage.removeItem('wentBack');
+// }
+// else if (searchResults){
+//     // const firstResult = document.querySelector("article.content-section");
+//     // const query = firstResult.getAttribute("query");
+//     // const page = firstResult.getAttribute("page");
+//     // const searchAppLocation = page==="1" ? window.location.href + "?query="+query+"&page=1" : window.location.href;
+//     // window.browserHistoryTracker.addPage(searchAppLocation);
+//     // const lastPageVisited = window.browserHistoryTracker.getLastPageVisited();
+    
+//     // if(lastPageVisited == searchAppLocation){
+//     //     studyLogger.logEvent("wentBack", {
+//     //         "query": query,
+//     //         "page": page
+//     //     });
+//     //     window.browserHistoryTracker.removePages();
+//     //     window.browserHistoryTracker.addPage(searchAppLocation);        
+//     // }
+    // else{
+        // searchResults.forEach(result => {
+        //     const query = result.getAttribute("query");
+        //     const docid = result.getAttribute("base_ir");
+        //     const rank = result.id.split("-")[1];
+        //     const page = result.getAttribute("page");
+        //     const url = document.getElementById(`abstract-link-${rank}`).getAttribute("href");
+        //     const searchAppLocation = page==="1" ? window.location.href + "?query="+query+"&page=1" : window.location.href;
+            
+        //     studyLogger.logEvent("searchResultGenerated", {
+        //             query: query,
+        //             docid: docid,
+        //             rank: rank,
+        //             page: page,
+        //             url: url,
+        //             windowLocation: searchAppLocation,
+        //         });
+        // });
+    // }
+// }
 
 if(searchResults){
     searchResults.forEach(result=>{
@@ -216,14 +278,14 @@ if(searchResults){
             });
         });
 
-        result.addEventListener("mouseleave", ()=>{
-            studyLogger.logEvent("cursorLeftSnippet", {
-                query: query,
-                docid: docid,
-                rank: rank,
-                page: page
-            });
-        });
+        // result.addEventListener("mouseleave", ()=>{
+        //     studyLogger.logEvent("cursorLeftSnippet", {
+        //         query: query,
+        //         docid: docid,
+        //         rank: rank,
+        //         page: page
+        //     });
+        // });
     });
 }
 
@@ -240,15 +302,16 @@ if (resultLinks) {
             const query = snippet.getAttribute("query");
             const page = snippet.getAttribute("page");
             
+            studyLogger.addHistory(url);
             studyLogger.logEvent("clickedResult", {
                 query: query,
                 rank: rank,
                 page: page,
                 url: url,
-                searchAppLocation: url
+                searchAppLocation: url,
+                history: studyLogger.getHistory(),
             });
 
-            // window.browserHistoryTracker.addPage(url);
         });
     });
 }
