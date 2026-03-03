@@ -1,0 +1,3 @@
+{"type": "TaskStarted", "timestamp": "2026-03-03T12:54:42.611Z", "sessionID": "e5d7f577-87a5-4ade-83ed-1876422e007f"}
+{"type": "TaskStarted", "timestamp": "2026-03-03T12:54:45.237Z", "sessionID": "e5d7f577-87a5-4ade-83ed-1876422e007f"}
+{"type": "idSubmitted", "timestamp": "2026-03-03T12:54:45.239Z", "sessionID": "e5d7f577-87a5-4ade-83ed-1876422e007f", "uid": "Participant8"}
