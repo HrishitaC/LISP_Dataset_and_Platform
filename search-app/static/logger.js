@@ -126,7 +126,8 @@ if (searchbar) {
     }); 
 }
 
-const searchResults = document.querySelectorAll("article.content-section");
+function logSERP() {
+    const searchResults = document.querySelectorAll("article.content-section");
     if(searchResults){
         searchResults.forEach(result => {
             const query = result.getAttribute("query");
@@ -135,7 +136,7 @@ const searchResults = document.querySelectorAll("article.content-section");
             const page = result.getAttribute("page");
             const url = document.getElementById(`abstract-link-${rank}`).getAttribute("href");
             const searchAppLocation = page==="1" ? window.location.href + "?query="+query+"&page=1" : window.location.href;
-            
+
             studyLogger.logEvent("searchResultGenerated", {
                         query: query,
                         docid: docid,
@@ -168,12 +169,19 @@ const searchResults = document.querySelectorAll("article.content-section");
                     windowLocation: searchAppLocation,
                     // history: studyLogger.getHistory(),
                 });
-            });
-    });
+            });           
+        });
+    }
 }
 
+document.addEventListener("DOMContentLoaded", logSERP);
 
-    
+window.addEventListener("pageshow", (e)=>{
+    if(e.persisted) {
+        logSERP();
+    }
+})
+
     // const firstResult = document.querySelector("article.content-section");
     // const query = firstResult.getAttribute("query");
     // const  page = firstResult.getAttribute("page");

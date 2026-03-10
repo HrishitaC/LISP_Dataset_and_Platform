@@ -134,6 +134,15 @@ def result():
     search_results = response.json()
 
     reminder = USER_TOPICS.get(session.get('user_id'), {}).get(str(session.get('task_number'))+'_full')
+    
+    if len(search_results["itemlist"]) == 0:
+            return render_template("no_result.html", title="No results found", query= query, show_search=True, reminder=reminder)
+    else:
+        total_results = len(search_results["itemlist"])
+        total_pages = min(10, math.ceil(total_results / rpp))
+        start = (page - 1) * rpp
+        end = start + rpp
+        return render_template("search.html", title="Search Results", search_results = search_results['itemlist'][start:end], query=query, page=page, total_pages = total_pages, show_search=True, reminder=reminder)
 
     # f = open("API_keys.json")
     # data = json.load(f)
@@ -164,15 +173,6 @@ def result():
     #     start = (page - 1) * rpp
     #     end = start + rpp
     #     return render_template("search.html", title="Search Results", search_results = search_results['organic_results'][start:end], query=query, page=page, total_pages = total_pages, show_search=True, reminder=reminder)
-
-    if len(search_results["itemlist"]) == 0:
-            return render_template("no_result.html", title="No results found", query= query, show_search=True, reminder=reminder)
-    else:
-        total_results = len(search_results["itemlist"])
-        total_pages = min(10, math.ceil(total_results / rpp))
-        start = (page - 1) * rpp
-        end = start + rpp
-        return render_template("search.html", title="Search Results", search_results = search_results['itemlist'][start:end], query=query, page=page, total_pages = total_pages, show_search=True, reminder=reminder)
     
 @app.route('/log_session', methods=['POST'])
 def log_session():

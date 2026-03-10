@@ -1,0 +1,6 @@
+{"type": "TaskStarted", "timestamp": "2026-03-10T14:45:35.691Z", "sessionID": "61bac660-ab1f-457f-99db-3e90682973b9"}
+{"type": "idSubmitted", "timestamp": "2026-03-10T14:45:35.694Z", "sessionID": "61bac660-ab1f-457f-99db-3e90682973b9", "uid": "Participant14"}
+{"type": "queryBoxFocused", "timestamp": "2026-03-10T14:45:36.947Z", "sessionID": "61bac660-ab1f-457f-99db-3e90682973b9"}
+{"type": "querySubmitted", "timestamp": "2026-03-10T14:45:39.995Z", "sessionID": "61bac660-ab1f-457f-99db-3e90682973b9", "query": "boat"}
+{"type": "ClickedEndTask", "timestamp": "2026-03-10T14:46:39.582Z", "sessionID": "61bac660-ab1f-457f-99db-3e90682973b9"}
+{"type": "TaskEndConfirmed", "timestamp": "2026-03-10T14:46:40.546Z", "sessionID": "61bac660-ab1f-457f-99db-3e90682973b9"}
