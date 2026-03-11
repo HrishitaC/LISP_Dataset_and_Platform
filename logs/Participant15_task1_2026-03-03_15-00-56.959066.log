@@ -1,4 +1,0 @@
-{"type": "TaskStarted", "timestamp": "2026-03-03T15:00:34.801Z", "sessionID": "bc967131-2560-423a-aa54-81a72a5bfac0"}
-{"type": "idSubmitted", "timestamp": "2026-03-03T15:00:34.806Z", "sessionID": "bc967131-2560-423a-aa54-81a72a5bfac0", "uid": "Participant15"}
-{"type": "queryBoxFocused", "timestamp": "2026-03-03T15:00:35.993Z", "sessionID": "bc967131-2560-423a-aa54-81a72a5bfac0"}
-{"type": "querySubmitted", "timestamp": "2026-03-03T15:00:38.012Z", "sessionID": "bc967131-2560-423a-aa54-81a72a5bfac0", "query": "ducks"}
